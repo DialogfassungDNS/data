@@ -1,2 +1,14 @@
 Disaggregation,Number of indicators,Number of values
-Group,1,2
+age group,2,15
+air pollutant,1,5
+area,2,4
+calculation method,1,2
+county,1,402
+criminal offences,1,4
+degree of urbanisation,2,2
+federal state,30,16
+sea,1,2
+sex,9,2
+sub index,1,5
+time series,20,51
+type of area,1,3
