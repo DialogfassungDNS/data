@@ -131,7 +131,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Insgesamt",
                 "Männer",
                 "Frauen",
                 ""

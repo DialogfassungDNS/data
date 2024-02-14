@@ -1,25 +1,25 @@
 Year,time series,Units,Sex,Value
-2011,,Anzahl,Insgesamt,201490.0
-2012,,Anzahl,Insgesamt,197463.0
-2013,,Anzahl,Insgesamt,197357.0
-2014,,Anzahl,Insgesamt,188227.0
-2015,,Anzahl,Insgesamt,190971.0
-2016,,Anzahl,Insgesamt,185666.0
-2017,,Anzahl,Insgesamt,182982.0
-2018,,Anzahl,Insgesamt,184486.0
-2019,,Anzahl,Insgesamt,178810.0
-2020,,Anzahl,Insgesamt,187391.0
-2011,,"per 100,000 inhabitants",Insgesamt,257.93
-2012,,"per 100,000 inhabitants",Insgesamt,252.8
-2013,,"per 100,000 inhabitants",Insgesamt,253.78
-2014,,"per 100,000 inhabitants",Insgesamt,243.34
-2015,,"per 100,000 inhabitants",Insgesamt,249.22
-2016,,"per 100,000 inhabitants",Insgesamt,244.56
-2017,,"per 100,000 inhabitants",Insgesamt,241.05
-2018,,"per 100,000 inhabitants",Insgesamt,241.0
-2019,,"per 100,000 inhabitants",Insgesamt,231.41
-2020,,"per 100,000 inhabitants",Insgesamt,238.07
-2030,,"per 100,000 inhabitants",Insgesamt,
+2011,,Anzahl,,201490.0
+2012,,Anzahl,,197463.0
+2013,,Anzahl,,197357.0
+2014,,Anzahl,,188227.0
+2015,,Anzahl,,190971.0
+2016,,Anzahl,,185666.0
+2017,,Anzahl,,182982.0
+2018,,Anzahl,,184486.0
+2019,,Anzahl,,178810.0
+2020,,Anzahl,,187391.0
+2011,,"per 100,000 inhabitants",,257.93
+2012,,"per 100,000 inhabitants",,252.8
+2013,,"per 100,000 inhabitants",,253.78
+2014,,"per 100,000 inhabitants",,243.34
+2015,,"per 100,000 inhabitants",,249.22
+2016,,"per 100,000 inhabitants",,244.56
+2017,,"per 100,000 inhabitants",,241.05
+2018,,"per 100,000 inhabitants",,241.0
+2019,,"per 100,000 inhabitants",,231.41
+2020,,"per 100,000 inhabitants",,238.07
+2030,,"per 100,000 inhabitants",,
 2011,,Anzahl,Männer,130920.0
 2012,,Anzahl,Männer,128083.0
 2013,,Anzahl,Männer,127388.0
@@ -60,26 +60,26 @@ Year,time series,Units,Sex,Value
 2018,,"per 100,000 inhabitants",Frauen,169.34
 2019,,"per 100,000 inhabitants",Frauen,162.47
 2020,,"per 100,000 inhabitants",Frauen,165.1
-2011,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,127461.0
-2012,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,125457.5
-2013,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,126132.0
-2014,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,120737.5
-2015,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,122759.0
-2016,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,120129.5
-2017,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,118549.0
-2018,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,119637.0
-2019,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,116043.0
-2020,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Insgesamt,124070.0
-2011,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,163.45
-2012,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,160.8
-2013,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,162.24
-2014,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,155.92
-2015,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,159.85
-2016,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,157.64
-2017,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,155.55
-2018,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,155.65
-2019,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,149.66
-2020,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,157.23
+2011,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,127461.0
+2012,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,125457.5
+2013,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,126132.0
+2014,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,120737.5
+2015,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,122759.0
+2016,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,120129.5
+2017,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,118549.0
+2018,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,119637.0
+2019,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,116043.0
+2020,Durch Prävention vermeidbare Sterblichkeit,Anzahl,,124070.0
+2011,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,163.45
+2012,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,160.8
+2013,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,162.24
+2014,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,155.92
+2015,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,159.85
+2016,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,157.64
+2017,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,155.55
+2018,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,155.65
+2019,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,149.66
+2020,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",,157.23
 2011,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Männer,89805.5
 2012,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Männer,88027.0
 2013,Durch Prävention vermeidbare Sterblichkeit,Anzahl,Männer,87866.0
@@ -120,26 +120,26 @@ Year,time series,Units,Sex,Value
 2018,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Frauen,95.92
 2019,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Frauen,92.05
 2020,Durch Prävention vermeidbare Sterblichkeit,"per 100,000 inhabitants",Frauen,96.22
-2011,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,74029.0
-2012,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,72005.5
-2013,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,71225.0
-2014,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,67489.5
-2015,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,68212.0
-2016,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,65536.5
-2017,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,64433.0
-2018,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,64849.0
-2019,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,62767.0
-2020,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Insgesamt,63321.0
-2011,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,94.48
-2012,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,92.0
-2013,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,91.54
-2014,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,87.42
-2015,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,89.37
-2016,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,86.92
-2017,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,85.51
-2018,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,85.36
-2019,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,81.75
-2020,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",Insgesamt,80.84
+2011,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,74029.0
+2012,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,72005.5
+2013,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,71225.0
+2014,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,67489.5
+2015,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,68212.0
+2016,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,65536.5
+2017,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,64433.0
+2018,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,64849.0
+2019,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,62767.0
+2020,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,,63321.0
+2011,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,94.48
+2012,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,92.0
+2013,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,91.54
+2014,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,87.42
+2015,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,89.37
+2016,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,86.92
+2017,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,85.51
+2018,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,85.36
+2019,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,81.75
+2020,Durch Behandlung vermeidbare Sterblichkeit,"per 100,000 inhabitants",,80.84
 2011,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Männer,41114.5
 2012,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Männer,40056.0
 2013,Durch Behandlung vermeidbare Sterblichkeit,Anzahl,Männer,39522.0
