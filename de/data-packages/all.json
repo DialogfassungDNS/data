@@ -636,8 +636,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Materielle Deprivation",
-                "Erhebliche materielle Deprivation",
+                "Materielle und soziale Deprivation",
+                "Erhebliche materielle und soziale Deprivation",
                 ""
               ]
             },
@@ -662,6 +662,13 @@
               "enum": [
                 "Weiblich",
                 "Männlich",
+                "5",
+                "4.3",
+                "3.5",
+                "3.2",
+                "2.6",
+                "4.4",
+                "6.2",
                 ""
               ]
             },
@@ -674,7 +681,7 @@
           }
         ]
       },
-      "title": "Materielle Deprivation sowie erhebliche materielle Deprivation"
+      "title": "Materielle und soziale Deprivation sowie erhebliche materielle und soziale Deprivation"
     },
     {
       "path": "11-1-b/data.csv",

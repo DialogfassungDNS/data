@@ -29,8 +29,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "material deprivation",
-                "severe material deprivation",
+                "material and social deprivation",
+                "severe material and social deprivation",
                 ""
               ]
             }
@@ -53,6 +53,13 @@
               "enum": [
                 "female",
                 "male",
+                "5",
+                "4.3",
+                "3.5",
+                "3.2",
+                "2.6",
+                "4.4",
+                "6.2",
                 ""
               ]
             }
@@ -67,5 +74,5 @@
   ],
   "profile": "data-package",
   "name": "1-1-ab",
-  "title": "Materielle Deprivation sowie erhebliche materielle Deprivation"
+  "title": "Materielle und soziale Deprivation sowie erhebliche materielle und soziale Deprivation"
 }
