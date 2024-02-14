@@ -12,7 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "integer",
+            "title": "Jahr"
           },
           {
             "name": "time series",
@@ -23,7 +24,8 @@
                 "Durch Behandlung vermeidbare Sterblichkeit",
                 ""
               ]
-            }
+            },
+            "title": "Zeitreihe"
           },
           {
             "name": "Units",
@@ -31,10 +33,11 @@
             "constraints": {
               "enum": [
                 "Anzahl",
-                "percentage",
+                "Je 100 000 Einwohner/-innen",
                 ""
               ]
-            }
+            },
+            "title": "Units"
           },
           {
             "name": "Sex",
@@ -46,17 +49,19 @@
                 "Frauen",
                 ""
               ]
-            }
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "number",
+            "title": "Value"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "3-1-ab",
+  "name": "3-1-a",
   "title": "Durch Prävention und Behandlung vermeidbare Sterblichkeit"
 }
