@@ -3832,7 +3832,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "euc_kr",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -3845,16 +3845,6 @@
             "constraints": {
               "enum": [
                 "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Prävention Verbraucherverschuldung",
                 ""
               ]
             }
