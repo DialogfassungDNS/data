@@ -53,33 +53,33 @@ Year,Units,time series,area,sex,Value
 2020,percentage,material and social deprivation,germany,male,8.9
 2021,percentage,material and social deprivation,germany,male,9.0
 2022,percentage,material and social deprivation,germany,male,11.4
-2014,percentage,severe material and social deprivation,germany,,
-2015,percentage,severe material and social deprivation,germany,,9.3
-2016,percentage,severe material and social deprivation,germany,,8.7
-2017,percentage,severe material and social deprivation,germany,,7.5
-2018,percentage,severe material and social deprivation,germany,,6.8
-2019,percentage,severe material and social deprivation,germany,,6.7
-2020,percentage,severe material and social deprivation,germany,,6.8
-2021,percentage,severe material and social deprivation,germany,,6.3
-2022,percentage,severe material and social deprivation,germany,,6.7
-2014,percentage,severe material and social deprivation,germany,female,
-2015,percentage,severe material and social deprivation,germany,female,9.9
-2016,percentage,severe material and social deprivation,germany,female,9.3
-2017,percentage,severe material and social deprivation,germany,female,7.9
-2018,percentage,severe material and social deprivation,germany,female,7.2
-2019,percentage,severe material and social deprivation,germany,female,7.1
-2020,percentage,severe material and social deprivation,germany,female,7.1
-2021,percentage,severe material and social deprivation,germany,female,6.6
-2022,percentage,severe material and social deprivation,germany,female,7
-2014,percentage,severe material and social deprivation,germany,male,
-2015,percentage,severe material and social deprivation,germany,male,8.8
-2016,percentage,severe material and social deprivation,germany,male,8.1
-2017,percentage,severe material and social deprivation,germany,male,7
-2018,percentage,severe material and social deprivation,germany,male,6.3
-2019,percentage,severe material and social deprivation,germany,male,6.2
-2020,percentage,severe material and social deprivation,germany,male,6.5
-2021,percentage,severe material and social deprivation,germany,male,6
-2022,percentage,severe material and social deprivation,germany,male,6.4
+2014,percentage,severe material and social deprivation,european union,,
+2015,percentage,severe material and social deprivation,european union,,9.3
+2016,percentage,severe material and social deprivation,european union,,8.7
+2017,percentage,severe material and social deprivation,european union,,7.5
+2018,percentage,severe material and social deprivation,european union,,6.8
+2019,percentage,severe material and social deprivation,european union,,6.7
+2020,percentage,severe material and social deprivation,european union,,6.8
+2021,percentage,severe material and social deprivation,european union,,6.3
+2022,percentage,severe material and social deprivation,european union,,6.7
+2014,percentage,severe material and social deprivation,european union,female,
+2015,percentage,severe material and social deprivation,european union,female,9.9
+2016,percentage,severe material and social deprivation,european union,female,9.3
+2017,percentage,severe material and social deprivation,european union,female,7.9
+2018,percentage,severe material and social deprivation,european union,female,7.2
+2019,percentage,severe material and social deprivation,european union,female,7.1
+2020,percentage,severe material and social deprivation,european union,female,7.1
+2021,percentage,severe material and social deprivation,european union,female,6.6
+2022,percentage,severe material and social deprivation,european union,female,7
+2014,percentage,severe material and social deprivation,european union,male,
+2015,percentage,severe material and social deprivation,european union,male,8.8
+2016,percentage,severe material and social deprivation,european union,male,8.1
+2017,percentage,severe material and social deprivation,european union,male,7
+2018,percentage,severe material and social deprivation,european union,male,6.3
+2019,percentage,severe material and social deprivation,european union,male,6.2
+2020,percentage,severe material and social deprivation,european union,male,6.5
+2021,percentage,severe material and social deprivation,european union,male,6
+2022,percentage,severe material and social deprivation,european union,male,6.4
 2014,percentage,severe material and social deprivation,germany,,
 2015,percentage,severe material and social deprivation,germany,,5.7
 2016,percentage,severe material and social deprivation,germany,,4.7
