@@ -1591,58 +1591,41 @@
             "title": "Jahr"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Je 100 000 Einwohner/-innen",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Vorzeitig Gestorbene (Frauen)",
-                "Vorzeitig Gestorbene (Männer)",
+                "Durch Prävention vermeidbare Sterblichkeit",
+                "Durch Behandlung vermeidbare Sterblichkeit",
                 ""
               ]
             },
             "title": "Zeitreihe"
           },
           {
-            "name": "federal state",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Baden-Württemberg",
-                "Bayern",
-                "Berlin",
-                "Brandenburg",
-                "Bremen",
-                "Hamburg",
-                "Hessen",
-                "Mecklenburg-Vorpommern",
-                "Niedersachsen",
-                "Nordrhein-Westfalen",
-                "Rheinland-Pfalz",
-                "Saarland",
-                "Sachsen",
-                "Sachsen-Anhalt",
-                "Schleswig-Holstein",
-                "Thüringen",
+                "Anzahl",
+                "Prozent",
                 ""
               ]
             },
-            "title": "Bundesland"
+            "title": "Units"
           },
           {
-            "name": "GeoCode",
+            "name": "Sex",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Männer",
+                "Frauen",
+                ""
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "Value",
@@ -1651,7 +1634,7 @@
           }
         ]
       },
-      "title": "Vorzeitige Sterblichkeit"
+      "title": "Durch Prävention und Behandlung vermeidbare Sterblichkeit"
     },
     {
       "path": "4-1-b/data.csv",

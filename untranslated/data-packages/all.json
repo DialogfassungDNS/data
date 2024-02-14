@@ -1466,54 +1466,38 @@
             "type": "integer"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "per 100,000 inhabitants",
-                ""
-              ]
-            }
-          },
-          {
             "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "premature death (women)",
-                "premature death (men)",
+                "Durch Prävention vermeidbare Sterblichkeit",
+                "Durch Behandlung vermeidbare Sterblichkeit",
                 ""
               ]
             }
           },
           {
-            "name": "federal state",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "baden-wuerttemberg",
-                "bavaria",
-                "berlin",
-                "brandenburg",
-                "bremen",
-                "hamburg",
-                "hesse",
-                "mecklenburg western pomerania",
-                "lower saxony",
-                "north rhine-westphalia",
-                "rhineland palatinate",
-                "saarland",
-                "saxony",
-                "saxony-anhalt",
-                "schleswig-holstein",
-                "thuringia",
+                "Anzahl",
+                "percentage",
                 ""
               ]
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Insgesamt",
+                "Männer",
+                "Frauen",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -1521,7 +1505,7 @@
           }
         ]
       },
-      "title": "Vorzeitige Sterblichkeit"
+      "title": "Durch Prävention und Behandlung vermeidbare Sterblichkeit"
     },
     {
       "path": "4-1-b/data.csv",
