@@ -4126,7 +4126,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
@@ -4163,7 +4163,7 @@
           }
         ]
       },
-      "title": "1-1-c"
+      "title": "Prävention Verbraucherverschuldung"
     }
   ]
 }

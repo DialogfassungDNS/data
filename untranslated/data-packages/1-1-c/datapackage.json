@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
@@ -44,5 +44,5 @@
   ],
   "profile": "data-package",
   "name": "1-1-c",
-  "title": "1-1-c"
+  "title": "Prävention Verbraucherverschuldung"
 }
