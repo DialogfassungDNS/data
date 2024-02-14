@@ -127,7 +127,7 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [

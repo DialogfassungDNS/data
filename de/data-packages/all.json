@@ -138,7 +138,7 @@
             "title": "Units"
           },
           {
-            "name": "Sex",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -147,7 +147,7 @@
                 ""
               ]
             },
-            "title": "Sex"
+            "title": "Geschlecht"
           },
           {
             "name": "Value",
