@@ -3004,6 +3004,38 @@
       "title": "Erwerbstätigenquote"
     },
     {
+      "path": "4-1-c/data.csv",
+      "name": "4-1-c",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Zusammenhang zwischen sozialer Herkunft und Bildungserfolg"
+    },
+    {
       "path": "11-4/data.csv",
       "name": "11-4",
       "profile": "tabular-data-resource",
