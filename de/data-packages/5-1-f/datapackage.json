@@ -16,16 +16,15 @@
             "title": "Jahr"
           },
           {
-            "name": "time series",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mütter",
-                "Väter",
+                "1 000",
                 ""
               ]
             },
-            "title": "Zeitreihe"
+            "title": "Units"
           },
           {
             "name": "Value",
@@ -37,6 +36,6 @@
     }
   ],
   "profile": "data-package",
-  "name": "5-1-e",
-  "title": "Durchschnittliche wöchentliche Erwerbsarbeitszeit bezogen auf alle Mütter und Väter"
+  "name": "5-1-f",
+  "title": "Berufliche Qualifizierung von Frauen und Mädchen durch deutsche entwicklungspolitische Zusammenarbeit"
 }

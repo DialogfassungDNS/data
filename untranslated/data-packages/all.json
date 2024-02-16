@@ -1783,11 +1783,12 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "1 000",
+                "Mütter",
+                "Väter",
                 ""
               ]
             }
@@ -1798,7 +1799,7 @@
           }
         ]
       },
-      "title": "Berufliche Qualifizierung von Frauen und Mädchen durch deutsche entwicklungspolitische Zusammenarbeit"
+      "title": "Durchschnittliche wöchentliche Erwerbsarbeitszeit bezogen auf alle Mütter und Väter"
     },
     {
       "path": "10-2/data.csv",
@@ -2804,6 +2805,38 @@
         ]
       },
       "title": "Bruttoinlandsprodukt je Einwohnerin und Einwohner"
+    },
+    {
+      "path": "5-1-f/data.csv",
+      "name": "5-1-f",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1 000",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Berufliche Qualifizierung von Frauen und Mädchen durch deutsche entwicklungspolitische Zusammenarbeit"
     },
     {
       "path": "2-1-b/data.csv",
