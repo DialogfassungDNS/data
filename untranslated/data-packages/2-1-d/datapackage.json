@@ -12,30 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
+            "type": "integer"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "Prozent",
+                "percentage",
                 ""
               ]
-            },
-            "title": "Units"
+            }
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Value"
+            "type": "number"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "1-1-d",
+  "name": "2-1-d",
   "title": "Prävention Verbraucherverschuldung"
 }
