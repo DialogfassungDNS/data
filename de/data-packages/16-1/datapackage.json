@@ -20,56 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Je 100 000 Einwohner/-innen",
+                "Anzahl",
                 ""
               ]
             },
             "title": "Units"
-          },
-          {
-            "name": "criminal offences",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Gefährliche und schwere Körperverletzung",
-                "Betrug",
-                "Wohnungseinbruchsdiebstahl",
-                "Sonstige Straftaten",
-                ""
-              ]
-            },
-            "title": "Straftaten"
-          },
-          {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Baden-Württemberg",
-                "Bayern",
-                "Berlin",
-                "Brandenburg",
-                "Bremen",
-                "Hamburg",
-                "Hessen",
-                "Mecklenburg-Vorpommern",
-                "Niedersachsen",
-                "Nordrhein-Westfalen",
-                "Rheinland-Pfalz",
-                "Saarland",
-                "Sachsen",
-                "Sachsen-Anhalt",
-                "Schleswig-Holstein",
-                "Thüringen",
-                ""
-              ]
-            },
-            "title": "Bundesland"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -82,5 +37,5 @@
   ],
   "profile": "data-package",
   "name": "16-1",
-  "title": "Straftaten"
+  "title": "Fördervolumen der Bundesregierung für Projekte sowie Anzahl der durch Fachpersonal der Bundeswehr ausgebildeten Personen zur Stärkung der Kontrolle von Kleinwaffen und leichten Waffen sowie dazugehöriger Munition weltweit"
 }

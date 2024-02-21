@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Milliarden EUR",
+                "2015 = 100",
                 ""
               ]
             },
@@ -37,5 +37,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-b",
-  "title": "Internationale Klimafinanzierung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel"
+  "title": "Treibhausgasemissionen"
 }
