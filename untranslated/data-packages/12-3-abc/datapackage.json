@@ -12,42 +12,53 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
+            "type": "integer"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
+                "%",
                 "2015 = 100",
                 ""
               ]
-            },
-            "title": "Units"
+            }
           },
           {
             "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Anteil des Papiers mit Blauem Engel am Gesamtpapierverbrauch der unmittelbaren Bundesverwaltung",
-                "CO₂-Emissionen je Fahrleistungen der Kraftfahrzeuge der öffentlichen Hand",
+                "Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
+                "paper bearing the blue angel label as a proportion of the total paper consumption of the direct federal administration",
+                "co2 emissions of commercially available vehicles in the public sector",
                 ""
               ]
-            },
-            "title": "Series"
+            }
+          },
+          {
+            "name": "Ebene",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bundesebene",
+                "Landesebene",
+                "Kommunale Ebene",
+                "Sonstige Auftraggebenden",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Value"
+            "type": "number"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "12-3-ab",
+  "name": "12-3-abc",
   "title": "Nachhaltige Beschaffung"
 }
