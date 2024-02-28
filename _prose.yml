@@ -99,7 +99,7 @@ prose:
       - name: "dialogue_text"
         field:
             element: text
-            label: "Beschreibung des Indikators"
+            label: "Beschreibung"
             scope: national
       - name: "dns_indicator_definition"
         field:
