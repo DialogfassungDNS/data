@@ -15,7 +15,6 @@ Year,Units,Series,Bundesland,GeoCode,Value
 2021,2008 = 100,Endenergieproduktivität,,,118.387
 2022,2008 = 100,Endenergieproduktivität,,,124.197
 2023,2008 = 100,Endenergieproduktivität,,,
-2050,2008 = 100,Endenergieproduktivität,,,
 2030,2008 = 100,Endenergieproduktivität,,,
 2008,2008 = 100,Endenergieproduktivität,Baden-Württemberg,code08,100.0
 2009,2008 = 100,Endenergieproduktivität,Baden-Württemberg,code08,95.51
@@ -234,7 +233,6 @@ Year,Units,Series,Bundesland,GeoCode,Value
 2021,2008 = 100,Primärenergieverbrauch,,,86.51
 2022,2008 = 100,Primärenergieverbrauch,,,81.712
 2023,2008 = 100,Primärenergieverbrauch,,,75.0
-2050,2008 = 100,Primärenergieverbrauch,,,
 2030,2008 = 100,Primärenergieverbrauch,,,
 2008,2008 = 100,Primärenergieverbrauch,Baden-Württemberg,code08,100.0
 2009,2008 = 100,Primärenergieverbrauch,Baden-Württemberg,code08,95.076

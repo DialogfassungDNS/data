@@ -15,7 +15,6 @@ Year,Value,Units,Series,GeoCode
 2021,118.387,2008 = 100,Endenergieproduktivität,
 2022,124.197,2008 = 100,Endenergieproduktivität,
 2023,,2008 = 100,Endenergieproduktivität,
-2050,,2008 = 100,Endenergieproduktivität,
 2030,,2008 = 100,Endenergieproduktivität,
 2008,100.0,2008 = 100,Primärenergieverbrauch,
 2009,94.097,2008 = 100,Primärenergieverbrauch,
@@ -33,5 +32,4 @@ Year,Value,Units,Series,GeoCode
 2021,86.51,2008 = 100,Primärenergieverbrauch,
 2022,81.712,2008 = 100,Primärenergieverbrauch,
 2023,75.0,2008 = 100,Primärenergieverbrauch,
-2050,,2008 = 100,Primärenergieverbrauch,
 2030,,2008 = 100,Primärenergieverbrauch,
