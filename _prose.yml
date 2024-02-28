@@ -77,11 +77,11 @@ prose:
             value: "UN metadata"
             scope: global
       ######### Content #######################
-      - name: "content_and_progress"
-        field:
-          element: text
-          label: "Content and progress"
-          scope: content
+    #  - name: "content_and_progress"
+    #    field:
+    #      element: text
+    #      label: "Content and progress"
+    #      scope: content
       ######### additional #######################
       - name: "additional_information"
         field:
