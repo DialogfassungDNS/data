@@ -1016,7 +1016,7 @@
             "constraints": {
               "enum": [
                 "Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
-                "Anteil des Papiers mit Blauem Engel am Gesamtpapierverbrauch der unmittelbaren Bundesverwaltung",
+                "Nachhaltig beschaffte Textilien",
                 "CO₂-Emissionen je Fahrleistungen der Kraftfahrzeuge der öffentlichen Hand",
                 ""
               ]
