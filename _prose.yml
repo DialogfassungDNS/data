@@ -101,11 +101,11 @@ prose:
             element: text
             label: "Indicator available"
             scope: national
-    - name: "dialogue_text"
-      field:
-          element: text
-          label: "Beschreibung des Indikators"
-          scope: national
+      - name: "dialogue_text"
+        field:
+            element: text
+            label: "Beschreibung des Indikators"
+            scope: national
       - name: "dns_indicator_definition"
         field:
             element: text
