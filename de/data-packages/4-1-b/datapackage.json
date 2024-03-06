@@ -31,55 +31,25 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Tertiärer Abschluss",
-                "Postsekundarer nicht-tertiärer Abschluss",
+                "Akademisch Qualifizierte und beruflich Höherqualifizierte",
+                "Erstausbildung",
                 ""
               ]
             },
             "title": "Zeitreihe"
           },
           {
-            "name": "sex",
+            "name": "Art der Klassifizierung",
             "type": "string",
             "constraints": {
               "enum": [
-                "Weiblich",
-                "Männlich",
+                "Zweitausbildung, Ausbildung nach Abitur",
+                "Höherqualifizierende Berufsbildung",
+                "Hochschulabschlüsse",
                 ""
               ]
             },
-            "title": "Geschlecht"
-          },
-          {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Baden-Württemberg",
-                "Bayern",
-                "Berlin",
-                "Brandenburg",
-                "Bremen",
-                "Hamburg",
-                "Hessen",
-                "Mecklenburg-Vorpommern",
-                "Niedersachsen",
-                "Nordrhein-Westfalen",
-                "Rheinland-Pfalz",
-                "Saarland",
-                "Sachsen",
-                "Sachsen-Anhalt",
-                "Schleswig-Holstein",
-                "Thüringen",
-                ""
-              ]
-            },
-            "title": "Bundesland"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "title": "Art der Klassifizierung"
           },
           {
             "name": "Value",

@@ -29,51 +29,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "with tertiary qualification",
-                "with post-secondary non-tertiary qualification",
+                "Akademisch Qualifizierte und beruflich Höherqualifizierte",
+                "Erstausbildung",
                 ""
               ]
             }
           },
           {
-            "name": "sex",
+            "name": "Art der Klassifizierung",
             "type": "string",
             "constraints": {
               "enum": [
-                "female",
-                "male",
+                "Zweitausbildung, Ausbildung nach Abitur",
+                "Höherqualifizierende Berufsbildung",
+                "Hochschulabschlüsse",
                 ""
               ]
             }
-          },
-          {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "baden-wuerttemberg",
-                "bavaria",
-                "berlin",
-                "brandenburg",
-                "bremen",
-                "hamburg",
-                "hesse",
-                "mecklenburg western pomerania",
-                "lower saxony",
-                "north rhine-westphalia",
-                "rhineland palatinate",
-                "saarland",
-                "saxony",
-                "saxony-anhalt",
-                "schleswig-holstein",
-                "thuringia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",
