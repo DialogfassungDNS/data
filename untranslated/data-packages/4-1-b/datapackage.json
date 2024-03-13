@@ -25,12 +25,12 @@
             }
           },
           {
-            "name": "time series",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Akademisch Qualifizierte und beruflich Höherqualifizierte",
-                "Erstausbildung",
+                "Tertiärer oder postsekundarer nicht-tertiärer Abschluss",
+                "Fachkräftepotential mit beruflichem Abschluss",
                 ""
               ]
             }
@@ -57,5 +57,5 @@
   ],
   "profile": "data-package",
   "name": "4-1-b",
-  "title": "Akademisch Qualifizierte und beruflich Höherqualifizierte"
+  "title": "Tertiärer oder postsekundarer nicht-tertiärer Abschluss"
 }
