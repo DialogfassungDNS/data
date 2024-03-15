@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "2015 = 100",
+                "Milliarden EUR",
                 ""
               ]
             },

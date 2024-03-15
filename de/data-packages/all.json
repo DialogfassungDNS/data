@@ -181,41 +181,6 @@
       "title": "Verhältnis der Bruttoanlageinvestitionen zum BIP"
     },
     {
-      "path": "13-3-a/data.csv",
-      "name": "13-3-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Milliarden EUR",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Internationale Klimafinanzierung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel"
-    },
-    {
       "path": "7-1-ab/data.csv",
       "name": "7-1-ab",
       "profile": "tabular-data-resource",
@@ -1466,41 +1431,6 @@
       "title": "Anteil erneuerbarer Energien am Brutto-Endenergieverbrauch"
     },
     {
-      "path": "13-2-a/data.csv",
-      "name": "13-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "%",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Baumkronendichte in städtischen Gebieten"
-    },
-    {
       "path": "12-1-a/data.csv",
       "name": "12-1-a",
       "profile": "tabular-data-resource",
@@ -1684,7 +1614,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "2015 = 100",
+                "Milliarden EUR",
                 ""
               ]
             },
@@ -2529,41 +2459,6 @@
       "title": "Ausländische Schulabsolventinnen und Schulabsolventen"
     },
     {
-      "path": "13-1-c/data.csv",
-      "name": "13-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2010 = 100",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Rohstoffeinsatz für Investitionen in Bauten"
-    },
-    {
       "path": "6-2-ab/data.csv",
       "name": "6-2-ab",
       "profile": "tabular-data-resource",
@@ -3118,8 +3013,43 @@
       "title": "Überlastung durch Wohnkosten"
     },
     {
-      "path": "13-1-d/data.csv",
-      "name": "13-1-d",
+      "path": "13-2/data.csv",
+      "name": "13-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "%",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "13-2"
+    },
+    {
+      "path": "13-2-a/data.csv",
+      "name": "13-2-a",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3139,7 +3069,7 @@
           }
         ]
       },
-      "title": "Sektorübergreifende Treibhausgasemissionen im Handlungsfeld Hochbau (Errichtung, Erhalt und Betrieb)"
+      "title": "Baumkronendichte in städtischen Gebieten"
     },
     {
       "path": "8-5-c/data.csv",
