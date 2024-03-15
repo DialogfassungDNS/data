@@ -29,7 +29,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gleitender Fünfjahresdurchschnitt mit Bezug auf das Endjahr",
+                "moving five-year average shown for each middle year",
                 "calculated annual values",
                 ""
               ]

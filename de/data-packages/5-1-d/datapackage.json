@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Anteil der Kinder, deren Väter Elterngeld bezogen haben",
+                "Anteil der Elterngeldmonate, die von Vätern genommen wurden",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Units",
             "type": "string",
             "constraints": {
@@ -68,5 +80,5 @@
   ],
   "profile": "data-package",
   "name": "5-1-d",
-  "title": "Väterbeteiligung beim Elterngeld"
+  "title": "Väterbeteiligung beim Elterngeld und Väteranteil an den genommenen Elterngeldmonaten"
 }
