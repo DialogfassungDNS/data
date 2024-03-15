@@ -1355,6 +1355,7 @@
             "constraints": {
               "enum": [
                 "percentage",
+                "percAentage",
                 ""
               ]
             }
