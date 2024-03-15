@@ -12,38 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "integer",
+            "title": "Jahr"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "millions",
+                "Millionen",
                 ""
               ]
-            }
+            },
+            "title": "Units"
           },
           {
             "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "objects with digitised media",
-                "objects without digitised media",
+                "Objekte mit Digitalisat",
+                "Objekte ohne Digitalisat",
                 ""
               ]
-            }
+            },
+            "title": "Zeitreihe"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "number",
+            "title": "Value"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "11-4",
+  "name": "11-4-x",
   "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek"
 }
