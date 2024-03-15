@@ -2,16 +2,15 @@ Indicator,Disaggregations,Number of disaggregations
 #1-1-ab,"time series, sex, area",3
 #10-1,sex,1
 #10-2,"time series, area",2
-#11-1-a,"type of area, federal state",2
-#11-1-b,"federal state, degree of urbanisation",2
-#11-1-c,"federal state, degree of urbanisation",2
+#11-1-a,type of area,1
+#11-1-b,degree of urbanisation,1
+#11-1-c,degree of urbanisation,1
 #11-2-a,time series,1
 #11-2-b,time series,1
-#11-2-c,"time series, federal state",2
+#11-2-c,time series,1
 #11-3,sex,1
-#11-5,time series,1
+#11-4,time series,1
 #12-1-b,time series,1
-#12-2,federal state,1
 #12-3-abc,Ebene,1
 #13-1-a,federal state,1
 #14-1-a,time series,1

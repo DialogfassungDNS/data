@@ -12,8 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Millionen",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Objekte mit Digitalisat",
+                "Objekte ohne Digitalisat",
+                ""
+              ]
+            },
+            "title": "Zeitreihe"
           },
           {
             "name": "Value",
@@ -26,5 +49,5 @@
   ],
   "profile": "data-package",
   "name": "11-4",
-  "title": "Anzahl der Kommunen mit (Integrierten) Stadtentwicklungskonzepten bzw. Siedlungsentwicklungskonzepten"
+  "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek"
 }
