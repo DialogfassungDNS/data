@@ -30,7 +30,7 @@
             "constraints": {
               "enum": [
                 "employment rate, total (20 to 64-year-olds)",
-                "employment rate, older people (60 to 64-year-olds)",
+                "Erwerbstätigenquote Ältere (55- bis 64-Jährige)",
                 ""
               ]
             }

@@ -542,7 +542,7 @@
           }
         ]
       },
-      "title": "8-6"
+      "title": "Mitglieder des Textilbündnisses"
     },
     {
       "path": "14-1-b/data.csv",
@@ -833,6 +833,38 @@
         ]
       },
       "title": "Anteil des Stroms aus erneuerbaren Energiequellen am Bruttostromverbrauch"
+    },
+    {
+      "path": "8-5-c/data.csv",
+      "name": "8-5-c",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Tarifvertragliche Abdeckung von Beschäftigten"
     },
     {
       "path": "13-1-a/data.csv",
@@ -1159,6 +1191,78 @@
         ]
       },
       "title": "Gini-Koeffizient des Einkommens nach Sozialtransfers"
+    },
+    {
+      "path": "3-1-ab-x/data.csv",
+      "name": "3-1-ab-x",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "per 100,000 inhabitants",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "premature death (women)",
+                "premature death (men)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "federal state",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "baden-wuerttemberg",
+                "bavaria",
+                "berlin",
+                "brandenburg",
+                "bremen",
+                "hamburg",
+                "hesse",
+                "mecklenburg western pomerania",
+                "lower saxony",
+                "north rhine-westphalia",
+                "rhineland palatinate",
+                "saarland",
+                "saxony",
+                "saxony-anhalt",
+                "schleswig-holstein",
+                "thuringia",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Vorzeitige Sterblichkeit"
     },
     {
       "path": "9-1-a/data.csv",
@@ -1491,7 +1595,7 @@
           }
         ]
       },
-      "title": "Direkte und indirekte CO2-Emissionen im In- und Ausland bei der Herstellung der Güter für Anlageinvestitionen in Deutschland"
+      "title": "Internationale Klimafinanzierung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel"
     },
     {
       "path": "12-2/data.csv",
@@ -1739,7 +1843,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "%",
+                "percentage",
                 "2015 = 100",
                 ""
               ]
@@ -2632,7 +2736,7 @@
             "constraints": {
               "enum": [
                 "employment rate, total (20 to 64-year-olds)",
-                "employment rate, older people (60 to 64-year-olds)",
+                "Erwerbstätigenquote Ältere (55- bis 64-Jährige)",
                 ""
               ]
             }
@@ -2837,28 +2941,6 @@
         ]
       },
       "title": "Baumkronendichte in städtischen Gebieten"
-    },
-    {
-      "path": "8-5-c/data.csv",
-      "name": "8-5-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Tarifvertragliche Abdeckung von Beschäftigten"
     }
   ]
 }
