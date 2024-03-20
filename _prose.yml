@@ -100,6 +100,11 @@ prose:
         field:
             element: text
             label: "Beschreibung"
+            scope: nationaldialogue_text_revised
+      - name: "dialogue_text_revised"
+        field:
+            element: text
+            label: "Überarbeitung"
             scope: national
       - name: "dns_indicator_definition"
         field:
