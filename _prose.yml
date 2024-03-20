@@ -100,7 +100,7 @@ prose:
         field:
             element: text
             label: "Beschreibung"
-            scope: nationaldialogue_text_revised
+            scope: national
       - name: "dialogue_text_revised"
         field:
             element: text
