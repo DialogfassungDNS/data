@@ -15,6 +15,16 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stunden",
+                ""
+              ]
+            }
+          },
+          {
             "name": "time series",
             "type": "string",
             "constraints": {

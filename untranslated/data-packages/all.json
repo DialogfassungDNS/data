@@ -1576,7 +1576,7 @@
           }
         ]
       },
-      "title": "Umweltmanagement EMAS"
+      "title": "Umweltmanagementsystem (EMAS)"
     },
     {
       "path": "16-2-ab/data.csv",
@@ -1898,6 +1898,16 @@
             "type": "integer"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stunden",
+                ""
+              ]
+            }
+          },
+          {
             "name": "time series",
             "type": "string",
             "constraints": {
@@ -1957,7 +1967,7 @@
           }
         ]
       },
-      "title": "Ganztagsbetreuung"
+      "title": "Ganztagsbetreuung für Kinder"
     },
     {
       "path": "8-4/data.csv",
@@ -2697,7 +2707,7 @@
           }
         ]
       },
-      "title": "Anteil der Bevölkerung mit erhöhter PM10-Feinstaubexposition"
+      "title": "Anteil der Bevölkerung mit erhöhter <abbr title=\"Feinstaub (Durchmesser kleiner 10&nbsp;Mikrometer)\" tabindex=\"0\">PM<sub>10</sub></abbr>-Feinstaubexposition"
     },
     {
       "path": "15-4/data.csv",
@@ -2836,7 +2846,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "%",
+                "percentage",
                 ""
               ]
             }

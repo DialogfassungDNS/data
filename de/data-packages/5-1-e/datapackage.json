@@ -16,6 +16,17 @@
             "title": "Jahr"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stunden",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "time series",
             "type": "string",
             "constraints": {
