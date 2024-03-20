@@ -178,7 +178,7 @@
           }
         ]
       },
-      "title": "Verhältnis der Bruttoanlageinvestitionen zum BIP"
+      "title": "Verhältnis der Bruttoanlageinvestitionen zum Bruttoinlandsprodukt"
     },
     {
       "path": "7-1-ab/data.csv",
@@ -710,13 +710,6 @@
               "enum": [
                 "Weiblich",
                 "Männlich",
-                "5",
-                "4.3",
-                "3.5",
-                "3.2",
-                "2.6",
-                "4.4",
-                "6.2",
                 ""
               ]
             },
@@ -861,6 +854,7 @@
             "constraints": {
               "enum": [
                 "Daten des Statistischen Bundesamtes",
+                "Daten des BMEL",
                 ""
               ]
             },
@@ -970,36 +964,6 @@
               ]
             },
             "title": "Units"
-          },
-          {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Baden-Württemberg",
-                "Bayern",
-                "Berlin",
-                "Brandenburg",
-                "Bremen",
-                "Hamburg",
-                "Hessen",
-                "Mecklenburg-Vorpommern",
-                "Niedersachsen",
-                "Nordrhein-Westfalen",
-                "Rheinland-Pfalz",
-                "Sachsen",
-                "Sachsen-Anhalt",
-                "Schleswig-Holstein",
-                "Thüringen",
-                ""
-              ]
-            },
-            "title": "Bundesland"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
           },
           {
             "name": "Value",
@@ -1210,7 +1174,6 @@
             "constraints": {
               "enum": [
                 "Prozent",
-                "percAentage",
                 ""
               ]
             },
@@ -2022,8 +1985,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
-                "Nachhaltig beschaffte Textilien",
+                "a) Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
+                "c) Nachhaltig beschaffte Textilien",
                 "CO₂-Emissionen je Fahrleistungen der Kraftfahrzeuge der öffentlichen Hand",
                 ""
               ]
@@ -2520,44 +2483,13 @@
             "title": "Zeitreihe"
           },
           {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Baden-Württemberg",
-                "Bayern",
-                "Berlin",
-                "Brandenburg",
-                "Bremen",
-                "Hamburg",
-                "Hessen",
-                "Mecklenburg-Vorpommern",
-                "Niedersachsen",
-                "Nordrhein-Westfalen",
-                "Rheinland-Pfalz",
-                "Saarland",
-                "Sachsen",
-                "Sachsen-Anhalt",
-                "Schleswig-Holstein",
-                "Thüringen",
-                ""
-              ]
-            },
-            "title": "Bundesland"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "AStudierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
+      "title": "Studierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
     },
     {
       "path": "10-1/data.csv",
@@ -3065,7 +2997,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "%",
+                "Prozent",
                 ""
               ]
             },

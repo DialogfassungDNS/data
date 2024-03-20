@@ -163,7 +163,7 @@
           }
         ]
       },
-      "title": "Verhältnis der Bruttoanlageinvestitionen zum BIP"
+      "title": "Verhältnis der Bruttoanlageinvestitionen zum Bruttoinlandsprodukt"
     },
     {
       "path": "7-1-ab/data.csv",
@@ -651,13 +651,6 @@
               "enum": [
                 "female",
                 "male",
-                "5",
-                "4.3",
-                "3.5",
-                "3.2",
-                "2.6",
-                "4.4",
-                "6.2",
                 ""
               ]
             }
@@ -790,6 +783,7 @@
             "constraints": {
               "enum": [
                 "data from the federal statistical office",
+                "data from the federal ministry of food and agriculture",
                 ""
               ]
             }
@@ -889,34 +883,6 @@
                 ""
               ]
             }
-          },
-          {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "baden-wuerttemberg",
-                "bavaria",
-                "berlin",
-                "brandenburg",
-                "bremen",
-                "hamburg",
-                "hesse",
-                "mecklenburg western pomerania",
-                "lower saxony",
-                "north rhine-westphalia",
-                "rhineland palatinate",
-                "saxony",
-                "saxony-anhalt",
-                "schleswig-holstein",
-                "thuringia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
           },
           {
             "name": "Value",
@@ -1110,7 +1076,6 @@
             "constraints": {
               "enum": [
                 "percentage",
-                "percAentage",
                 ""
               ]
             }
@@ -1854,8 +1819,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
-                "Nachhaltig beschaffte Textilien",
+                "a) Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
+                "c) Nachhaltig beschaffte Textilien",
                 "co2 emissions of commercially available vehicles in the public sector",
                 ""
               ]
@@ -2311,41 +2276,12 @@
             }
           },
           {
-            "name": "federal state",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "baden-wuerttemberg",
-                "bavaria",
-                "berlin",
-                "brandenburg",
-                "bremen",
-                "hamburg",
-                "hesse",
-                "mecklenburg western pomerania",
-                "lower saxony",
-                "north rhine-westphalia",
-                "rhineland palatinate",
-                "saarland",
-                "saxony",
-                "saxony-anhalt",
-                "schleswig-holstein",
-                "thuringia",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "GeoCode",
-            "type": "string"
-          },
-          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "AStudierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
+      "title": "Studierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
     },
     {
       "path": "10-1/data.csv",
@@ -2811,7 +2747,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "%",
+                "percentage",
                 ""
               ]
             }
