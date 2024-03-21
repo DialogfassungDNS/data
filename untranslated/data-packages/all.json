@@ -1792,7 +1792,7 @@
               "enum": [
                 "a) Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
                 "c) Nachhaltig beschaffte Textilien",
-                "co2 emissions of commercially available vehicles in the public sector",
+                "b) co2 emissions of commercially available vehicles in the public sector",
                 ""
               ]
             }
@@ -2652,8 +2652,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "employment rate, total (20 to 64-year-olds)",
-                "Erwerbstätigenquote Ältere (55- bis 64-Jährige)",
+                "Insgesamt (20- bis 64-Jährige) ",
+                "Ältere (55- bis 64-Jährige)",
                 ""
               ]
             }
