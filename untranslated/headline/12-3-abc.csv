@@ -1,6 +1,5 @@
 Year,Value,Units,Series
 2021,12.59,percentage,a) Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde
-2020,,2015 = 100,c) Nachhaltig beschaffte Textilien
 2015,100.0,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
 2016,99.978,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
 2017,100.046,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
@@ -8,3 +7,4 @@ Year,Value,Units,Series
 2019,100.63,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
 2020,101.773,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
 2021,102.739,2015 = 100,b) co2 emissions of commercially available vehicles in the public sector
+2020,,2015 = 100,c) Nachhaltig beschaffte Textilien

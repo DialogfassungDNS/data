@@ -1955,8 +1955,8 @@
             "constraints": {
               "enum": [
                 "a) Vergabeverfahren bei denen mindestens ein Nachhaltigkeitskriterium berücksichtigt wurde",
-                "c) Nachhaltig beschaffte Textilien",
                 "b) CO₂-Emissionen je Fahrleistungen der Kraftfahrzeuge der öffentlichen Hand",
+                "c) Nachhaltig beschaffte Textilien",
                 ""
               ]
             },
