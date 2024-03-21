@@ -2894,7 +2894,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Insgesamt (20- bis 64-Jährige) ",
+                "Insgesamt (20- bis 64-Jährige)",
                 "Ältere (55- bis 64-Jährige)",
                 ""
               ]
