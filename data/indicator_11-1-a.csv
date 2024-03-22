@@ -1,8 +1,8 @@
 Year,Units,Series,type of area,Value
-1996,hectre per day,moving four-year average,,119.6
-1997,hectre per day,moving four-year average,,120.7
-1998,hectre per day,moving four-year average,,123.5
-1999,hectre per day,moving four-year average,,126.276
+1996,hectre per day,moving four-year average,,120.0
+1997,hectre per day,moving four-year average,,121.0
+1998,hectre per day,moving four-year average,,124.0
+1999,hectre per day,moving four-year average,,126.0
 2000,hectre per day,moving four-year average,,129.0
 2001,hectre per day,moving four-year average,,128.0
 2002,hectre per day,moving four-year average,,123.0
@@ -25,13 +25,12 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,moving four-year average,,52.0
 2020,hectre per day,moving four-year average,,54.0
 2021,hectre per day,moving four-year average,,55.0
+2022,hectre per day,moving four-year average,,52.0
 2030,hectre per day,moving four-year average,,
-2050,hectre per day,moving four-year average,,
-2070,hectre per day,moving four-year average,,
-1996,hectre per day,moving four-year average,transport area,
-1997,hectre per day,moving four-year average,transport area,
-1998,hectre per day,moving four-year average,transport area,
-1999,hectre per day,moving four-year average,transport area,22.716
+1996,hectre per day,moving four-year average,transport area,24.0
+1997,hectre per day,moving four-year average,transport area,21.0
+1998,hectre per day,moving four-year average,transport area,23.0
+1999,hectre per day,moving four-year average,transport area,23.0
 2000,hectre per day,moving four-year average,transport area,23.0
 2001,hectre per day,moving four-year average,transport area,23.0
 2002,hectre per day,moving four-year average,transport area,23.0
@@ -54,10 +53,11 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,moving four-year average,transport area,
 2020,hectre per day,moving four-year average,transport area,8.0
 2021,hectre per day,moving four-year average,transport area,8.0
-1996,hectre per day,moving four-year average,settlement area (built on),
-1997,hectre per day,moving four-year average,settlement area (built on),
-1998,hectre per day,moving four-year average,settlement area (built on),
-1999,hectre per day,moving four-year average,settlement area (built on),86.036
+2022,hectre per day,moving four-year average,transport area,4.0
+1996,hectre per day,moving four-year average,settlement area (built on),87.0
+1997,hectre per day,moving four-year average,settlement area (built on),83.0
+1998,hectre per day,moving four-year average,settlement area (built on),87.0
+1999,hectre per day,moving four-year average,settlement area (built on),87.0
 2000,hectre per day,moving four-year average,settlement area (built on),86.0
 2001,hectre per day,moving four-year average,settlement area (built on),83.0
 2002,hectre per day,moving four-year average,settlement area (built on),77.0
@@ -80,10 +80,11 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,moving four-year average,settlement area (built on),
 2020,hectre per day,moving four-year average,settlement area (built on),34.0
 2021,hectre per day,moving four-year average,settlement area (built on),36.0
-1996,hectre per day,moving four-year average,"recreation area, cemetery",
-1997,hectre per day,moving four-year average,"recreation area, cemetery",
-1998,hectre per day,moving four-year average,"recreation area, cemetery",
-1999,hectre per day,moving four-year average,"recreation area, cemetery",17.506
+2022,hectre per day,moving four-year average,settlement area (built on),37.0
+1996,hectre per day,moving four-year average,"recreation area, cemetery",9.0
+1997,hectre per day,moving four-year average,"recreation area, cemetery",20.0
+1998,hectre per day,moving four-year average,"recreation area, cemetery",21.0
+1999,hectre per day,moving four-year average,"recreation area, cemetery",21.0
 2000,hectre per day,moving four-year average,"recreation area, cemetery",20.0
 2001,hectre per day,moving four-year average,"recreation area, cemetery",23.0
 2002,hectre per day,moving four-year average,"recreation area, cemetery",23.0
@@ -106,16 +107,17 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,moving four-year average,"recreation area, cemetery",
 2020,hectre per day,moving four-year average,"recreation area, cemetery",12.0
 2021,hectre per day,moving four-year average,"recreation area, cemetery",11.0
-1996,hectre per day,calculated annual values,,119.576
-1997,hectre per day,calculated annual values,,124.252
-1998,hectre per day,calculated annual values,,130.622
-1999,hectre per day,calculated annual values,,130.655
-2000,hectre per day,calculated annual values,,131.0
-2001,hectre per day,calculated annual values,,121.0
+2022,hectre per day,moving four-year average,"recreation area, cemetery",11.0
+1996,hectre per day,calculated annual values,,120.0
+1997,hectre per day,calculated annual values,,124.0
+1998,hectre per day,calculated annual values,,131.0
+1999,hectre per day,calculated annual values,,131.0
+2000,hectre per day,calculated annual values,,132.0
+2001,hectre per day,calculated annual values,,122.0
 2002,hectre per day,calculated annual values,,109.0
 2003,hectre per day,calculated annual values,,99.0
 2004,hectre per day,calculated annual values,,131.0
-2005,hectre per day,calculated annual values,,118.0
+2005,hectre per day,calculated annual values,,117.0
 2006,hectre per day,calculated annual values,,106.0
 2007,hectre per day,calculated annual values,,97.0
 2008,hectre per day,calculated annual values,,95.0
@@ -125,18 +127,19 @@ Year,Units,Series,type of area,Value
 2012,hectre per day,calculated annual values,,69.0
 2013,hectre per day,calculated annual values,,71.0
 2014,hectre per day,calculated annual values,,63.0
-2015,hectre per day,calculated annual values,,61.0
-2016,hectre per day,calculated annual values,,51.0
+2015,hectre per day,calculated annual values,,62.0
+2016,hectre per day,calculated annual values,,
 2017,hectre per day,calculated annual values,,55.0
 2018,hectre per day,calculated annual values,,58.0
 2019,hectre per day,calculated annual values,,45.0
 2020,hectre per day,calculated annual values,,58.0
 2021,hectre per day,calculated annual values,,58.0
+2022,hectre per day,calculated annual values,,48.0
 2030,hectre per day,calculated annual values,,
-1996,hectre per day,calculated annual values,transport area,23.614
-1997,hectre per day,calculated annual values,transport area,20.642
-1998,hectre per day,calculated annual values,transport area,23.302
-1999,hectre per day,calculated annual values,transport area,23.308
+1996,hectre per day,calculated annual values,transport area,24.0
+1997,hectre per day,calculated annual values,transport area,21.0
+1998,hectre per day,calculated annual values,transport area,23.0
+1999,hectre per day,calculated annual values,transport area,23.0
 2000,hectre per day,calculated annual values,transport area,24.0
 2001,hectre per day,calculated annual values,transport area,23.0
 2002,hectre per day,calculated annual values,transport area,22.0
@@ -159,10 +162,11 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,calculated annual values,transport area,2.0
 2020,hectre per day,calculated annual values,transport area,6.0
 2021,hectre per day,calculated annual values,transport area,8.0
-1996,hectre per day,calculated annual values,settlement area (built on),87.201
-1997,hectre per day,calculated annual values,settlement area (built on),83.405
-1998,hectre per day,calculated annual values,settlement area (built on),86.759
-1999,hectre per day,calculated annual values,settlement area (built on),86.781
+2022,hectre per day,calculated annual values,transport area,-1.0
+1996,hectre per day,calculated annual values,settlement area (built on),87.0
+1997,hectre per day,calculated annual values,settlement area (built on),83.0
+1998,hectre per day,calculated annual values,settlement area (built on),87.0
+1999,hectre per day,calculated annual values,settlement area (built on),87.0
 2000,hectre per day,calculated annual values,settlement area (built on),87.0
 2001,hectre per day,calculated annual values,settlement area (built on),70.0
 2002,hectre per day,calculated annual values,settlement area (built on),66.0
@@ -185,10 +189,11 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,calculated annual values,settlement area (built on),33.0
 2020,hectre per day,calculated annual values,settlement area (built on),40.0
 2021,hectre per day,calculated annual values,settlement area (built on),39.0
-1996,hectre per day,calculated annual values,"recreation area, cemetery",8.693
-1997,hectre per day,calculated annual values,"recreation area, cemetery",20.204
-1998,hectre per day,calculated annual values,"recreation area, cemetery",20.561
-1999,hectre per day,calculated annual values,"recreation area, cemetery",20.566
+2022,hectre per day,calculated annual values,settlement area (built on),37.0
+1996,hectre per day,calculated annual values,"recreation area, cemetery",9.0
+1997,hectre per day,calculated annual values,"recreation area, cemetery",20.0
+1998,hectre per day,calculated annual values,"recreation area, cemetery",21.0
+1999,hectre per day,calculated annual values,"recreation area, cemetery",21.0
 2000,hectre per day,calculated annual values,"recreation area, cemetery",21.0
 2001,hectre per day,calculated annual values,"recreation area, cemetery",29.0
 2002,hectre per day,calculated annual values,"recreation area, cemetery",21.0
@@ -211,3 +216,4 @@ Year,Units,Series,type of area,Value
 2019,hectre per day,calculated annual values,"recreation area, cemetery",10.0
 2020,hectre per day,calculated annual values,"recreation area, cemetery",12.0
 2021,hectre per day,calculated annual values,"recreation area, cemetery",11.0
+2022,hectre per day,calculated annual values,"recreation area, cemetery",12.0

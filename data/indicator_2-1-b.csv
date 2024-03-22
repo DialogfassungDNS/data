@@ -1,5 +1,6 @@
 Year,Units,Series,Value
 1999,percentage,data from the federal statistical office,2.852
+2000,percentage,data from the federal statistical office,
 2001,percentage,data from the federal statistical office,3.573
 2002,percentage,data from the federal statistical office,
 2003,percentage,data from the federal statistical office,4.299
@@ -20,10 +21,12 @@ Year,Units,Series,Value
 2018,percentage,data from the federal statistical office,7.34
 2019,percentage,data from the federal statistical office,7.75
 2020,percentage,data from the federal statistical office,9.59
-2021,percentage,data from the federal statistical office,9.687
-2000,percentage,data from the federal statistical office,
+2021,percentage,data from the federal statistical office,9.65
+2022,percentage,data from the federal statistical office,9.77
+2023,percentage,data from the federal statistical office,11.17
 2030,percentage,data from the federal statistical office,
-1999,percentage,data from the federal ministry of food and agriculture,
+1999,percentage,data from the federal ministry of food and agriculture,2.6
+2000,percentage,data from the federal ministry of food and agriculture,3.2
 2001,percentage,data from the federal ministry of food and agriculture,3.7
 2002,percentage,data from the federal ministry of food and agriculture,4.1
 2003,percentage,data from the federal ministry of food and agriculture,4.3
@@ -41,9 +44,10 @@ Year,Units,Series,Value
 2015,percentage,data from the federal ministry of food and agriculture,6.5
 2016,percentage,data from the federal ministry of food and agriculture,7.5
 2017,percentage,data from the federal ministry of food and agriculture,8.2
-2018,percentage,data from the federal ministry of food and agriculture,9.0
+2018,percentage,data from the federal ministry of food and agriculture,9.1
 2019,percentage,data from the federal ministry of food and agriculture,9.7
 2020,percentage,data from the federal ministry of food and agriculture,10.3
 2021,percentage,data from the federal ministry of food and agriculture,10.9
-2000,percentage,data from the federal ministry of food and agriculture,
+2022,percentage,data from the federal ministry of food and agriculture,11.2
+2023,percentage,data from the federal ministry of food and agriculture,
 2030,percentage,data from the federal ministry of food and agriculture,
