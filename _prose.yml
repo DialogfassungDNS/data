@@ -96,6 +96,16 @@ prose:
             element: text
             label: "Indicator available"
             scope: national
+      - name: "dialogue_ressorts"
+        field:
+            element: text
+            label: "Zuständige Ressorts"
+            scope: national
+      - name: "dialogue_ressort"
+        field:
+            element: text
+            label: "Zuständiges Ressort"
+            scope: national
       - name: "dialogue_text"
         field:
             element: text
