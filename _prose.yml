@@ -90,12 +90,12 @@ prose:
           scope: additional_information
 
 
-      ######### National Metadata #########
+      ######### National Metadata ######### 
 
-      - name: "dialogue_ressorts"
+      - name: "dns_indicator_definition"
         field:
             element: text
-            label: "Zuständige Ressorts"
+            label: "Indicator definition"
             scope: national
       - name: "dialogue_ressort"
         field:
