@@ -17,7 +17,8 @@ dialogue: deleted
 #Metadata        
 national_indicator_available: Vorzeitige Sterblichkeit        
 
-dns_indicator_definition: Der Indikator umfasst die Todesfälle der weiblichen (3.1.a) und männlichen (3.1.b) unter 70-jährigen Bevölkerung, bezogen auf 100&nbsp;000&nbsp;Einwohnerinnen und Einwohner der alten Europastandardbevölkerung unter 70&nbsp;Jahren (unter Ausschluss der unter 1-Jährigen).        
+dns_indicator_definition: Der Indikator umfasst die Todesfälle der weiblichen (3.1.a) und männlichen (3.1.b) unter 70-jährigen Bevölkerung, bezogen auf 100&nbsp;000&nbsp;Einwohnerinnen und Einwohner der alten Europastandardbevölkerung unter 70&nbsp;Jahren (unter Ausschluss der unter 1-Jährigen).      
+meta_blurb: ''  
 
 dns_indicator_intention: Bis zum Jahr 2030&nbsp;soll die vorzeitige Sterblichkeit bei Frauen bei höchstens 100&nbsp;und bei Männern bei höchstens 190&nbsp;Todesfällen je 100&nbsp;000&nbsp;Einwohnerinnen und Einwohnern liegen.        
 
