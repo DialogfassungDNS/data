@@ -116,6 +116,13 @@ prose:
             element: text
             label: "Überarbeitung"
             scope: national
+
+      - name: "dns_indicator_intention"
+        field:
+            element: text
+            label: "Überarbeitung"
+            scope: national
+
       - name: "national_data_update_url"
         field:
             element: hidden
