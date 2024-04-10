@@ -91,11 +91,7 @@ prose:
 
 
       ######### National Metadata #########
-      - name: "meta_blurb"
-        field:
-            element: hidden
-            label: ""
-            scope: national
+
       - name: "dialogue_ressorts"
         field:
             element: text
