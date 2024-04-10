@@ -91,13 +91,7 @@ prose:
 
 
       ######### National Metadata #########
-      - name: "national_indicator_available"
-        field:
-            element: text
-            label: "Indicator available"
-            scope: national
-
-      - name: "meta_blurb"
+    - name: "meta_blurb"
         field:
             element: text
             label: ""
@@ -122,26 +116,6 @@ prose:
             element: text
             label: "Überarbeitung"
             scope: national
-      - name: "dns_indicator_definition"
-        field:
-            element: text
-            label: "Indicator definition"
-            scope: national
-      - name: "national_geographical_coverage"
-        field:
-            element: text
-            label: "Geographical coverage"
-            scope: national
-      - name: "dns_indicator_intention"
-        field:
-            element: text
-            label: "Intention"
-            scope: national
-      - name: "data_state"
-        field:
-          element: text
-          lable: "data state"
-          scope: national
       - name: "national_data_update_url"
         field:
             element: hidden
