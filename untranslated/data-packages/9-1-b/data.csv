@@ -12,6 +12,7 @@ Year,Units,time series,Value
 2021/2,percentage,all wired technologies,
 2022/1,percentage,all wired technologies,68.04
 2022/2,percentage,all wired technologies,70.5
+2023/1,percentage,all wired technologies,73.6
 2015,percentage,fibre-to-the-building/home (fttb/h),6.7
 2016,percentage,fibre-to-the-building/home (fttb/h),7.1
 2017,percentage,fibre-to-the-building/home (fttb/h),8.0
@@ -25,6 +26,7 @@ Year,Units,time series,Value
 2021/2,percentage,fibre-to-the-building/home (fttb/h),
 2022/1,percentage,fibre-to-the-building/home (fttb/h),18.2
 2022/2,percentage,fibre-to-the-building/home (fttb/h),23.2
+2023/1,percentage,fibre-to-the-building/home (fttb/h),28.2
 2015,percentage,hybrid fiber coax (hfc),
 2016,percentage,hybrid fiber coax (hfc),
 2017,percentage,hybrid fiber coax (hfc),
@@ -38,3 +40,4 @@ Year,Units,time series,Value
 2021/2,percentage,hybrid fiber coax (hfc),
 2022/1,percentage,hybrid fiber coax (hfc),59.07
 2022/2,percentage,hybrid fiber coax (hfc),60.55
+2023/1,percentage,hybrid fiber coax (hfc),61.9
