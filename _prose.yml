@@ -93,7 +93,7 @@ prose:
       ######### National Metadata #########
       - name: "meta_blurb"
         field:
-            element: text
+            element: hidden
             label: ""
             scope: national
       - name: "dialogue_ressorts"
