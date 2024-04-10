@@ -91,7 +91,7 @@ prose:
 
 
       ######### National Metadata #########
-    - name: "meta_blurb"
+      - name: "meta_blurb"
         field:
             element: text
             label: ""
