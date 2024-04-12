@@ -43,7 +43,7 @@ prose:
       - name: "proposal_definition_revision"
         field:
               element: text
-              label: "Definition für Überarbeitungsvorschlag"
+              label: "Definition für Überarbeitungs&shy;vorschlag"
               scope: proposal
       - name: "proposal_target"
         field:
