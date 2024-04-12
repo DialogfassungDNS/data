@@ -35,6 +35,16 @@ prose:
               element: text
               label: "Fachliche Erläuterung der Überarbeitung"
               scope: proposal
+      - name: "proposal_definition_revision"
+        field:
+              element: text
+              label: "Definition für Überarbeitungsvorschlag"
+              scope: proposal
+      - name: "proposal_target"
+        field:
+              element: text
+              label: "Vorschlag für (möglichst) quatifiziertes Ziel"
+              scope: proposal
     ######### Global Metadata #########
       - name: "goal"
         field:
