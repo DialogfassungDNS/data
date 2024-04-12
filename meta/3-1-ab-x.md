@@ -17,11 +17,11 @@ dialogue: deleted
 #Metadata        
 national_indicator_available: Vorzeitige Sterblichkeit        
 
-dns_indicator_definition: Der Indikator umfasst die Todesfälle der weiblichen (3.1.a) und männlichen (3.1.b) unter 70-jährigen Bevölkerung, bezogen auf 100&nbsp;000&nbsp;Einwohnerinnen und Einwohner der alten Europastandardbevölkerung unter 70&nbsp;Jahren (unter Ausschluss der unter 1-Jährigen).        
+dns_indicator_definition: Der Indikator umfasst die Todesfälle der weiblichen (3.1.a) und männlichen (3.1.b) unter 70-jährigen Bevölkerung, bezogen auf 100&nbsp;000&nbsp;Einwohnerinnen und Einwohner der alten Europastandardbevölkerung unter 70&nbsp;Jahren (unter Ausschluss der unter 1-Jährigen).      
+meta_blurb: ''  
 
 dns_indicator_intention: Bis zum Jahr 2030&nbsp;soll die vorzeitige Sterblichkeit bei Frauen bei höchstens 100&nbsp;und bei Männern bei höchstens 190&nbsp;Todesfällen je 100&nbsp;000&nbsp;Einwohnerinnen und Einwohnern liegen.        
 
-data_state: Der Indikatorenbericht 2022 hat den Datenstand 31.10.2022. Die Daten auf dieser Plattform werden regelmäßig aktualisiert, sodass online aktuellere Daten verfügbar sein können als im <a href="https://dns-indikatoren.de/assets/Publikationen/Indikatorenberichte/2022.pdf">Indikatorenbericht 2022</a> veröffentlicht.        
 
 indicator_name: Vorzeitige Sterblichkeit        
 section: Gesundheit und Ernährung        
@@ -29,9 +29,6 @@ postulate: Länger gesund leben
 target_id: 3.1.1        
 previous: 3-1-ab        
 next: 3-1-cd        
-
-embedded_feature_html: '<p>Zusätzliche Datenreihen zum Indikator finden Sie <a href="https://dns-indikatoren.de/public/AddInfos/de/3_1_ab.pdf" target="_blank" >hier</a>.</p><br><small>Hinweis: PDF-Dokumente können Sie sich (je nach Browsereinstellung) direkt in Ihrem Browser anzeigen lassen oder Sie laden das PDF-Dokument herunter und öffnen es mit einem PDF-Reader Ihrer Wahl. Eine Anleitung wie Sie für ausgewählte Browser die entsprechende Einstellung ändern können, finden Sie <a href="https://dns-indikatoren.de/guidance/">hier</a>.</small>'
-embedded_feature_tab_title: Weitere Informationen        
 
 #Sources        
 
@@ -75,7 +72,7 @@ graph_target_points:
       }
     borderColor: transparent        
 
-data_show_map: true        
+data_show_map: false        
 copyright: '&copy; Statistisches Bundesamt (Destatis), 2024'        
 
 data_footnotes: "Todesfälle pro 100&nbsp;000&nbsp;Einwohner/-innen unter 70&nbsp;Jahren (ohne unter 1-Jährige).<br>• Altersstandardisierung: alte Europabevölkerung."        

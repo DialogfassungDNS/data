@@ -51,6 +51,6 @@ jobs:
       with:
         REPOSITORY_NAME: dns-indikatoren-dialogfassung/data-pub
         ACCESS_TOKEN: ${{ secrets.token }}
-        BRANCH: master
+        BRANCH: master #gh-pages
         FOLDER: _site
         CLEAN: true
