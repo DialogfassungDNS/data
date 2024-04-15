@@ -29,12 +29,12 @@ prose:
         field:
               element: text
               label: "Vorschlag vom..."
-              scope: proposal
-      - name: "proposal_description_revision"
-        field:
-              element: text
-              label: "Fachliche Erläuterung der Überarbeitung"
-              scope: proposal
+      #         scope: proposal
+      # - name: "proposal_description_revision"
+      #   field:
+      #         element: text
+      #         label: "Fachliche Erläuterung der Überarbeitung"
+      #         scope: proposal
       - name: "proposal_description_new"
         field:
               element: text
