@@ -29,7 +29,7 @@ prose:
         field:
               element: text
               label: "Vorschlag vom..."
-      #         scope: proposal
+              scope: proposal
       # - name: "proposal_description_revision"
       #   field:
       #         element: text
