@@ -28,7 +28,7 @@ prose:
       - name: "proposal_ressort"
         field:
               element: text
-              label: "Vorschlag vom..."
+              label: "Betroffene Ressorts"
               scope: proposal
       - name: "proposal_description_revision"
         field:
