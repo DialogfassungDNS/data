@@ -142,7 +142,7 @@ prose:
       - name: "dns_indicator_intention"
         field:
             element: text
-            label: "Überarbeitung"
+            label: "Ziel und Intention"
             scope: national
 
       - name: "national_data_update_url"
