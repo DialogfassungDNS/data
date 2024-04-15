@@ -24,6 +24,32 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
+    ######### Propsals ########## proposal_description_new
+      - name: "proposal_ressort"
+        field:
+              element: text
+              label: "Betroffene Ressorts"
+              scope: proposal
+      - name: "proposal_description_revision"
+        field:
+              element: text
+              label: "Fachliche Erläuterung der Überarbeitung"
+              scope: proposal
+      - name: "proposal_description_new"
+        field:
+              element: text
+              label: "Fachliche Erläuterung des Indikators"
+              scope: proposal
+      - name: "proposal_definition_revision"
+        field:
+              element: text
+              label: "Definition für Überarbeitungs&shy;vorschlag"
+              scope: proposal
+      - name: "proposal_target"
+        field:
+              element: text
+              label: "Vorschlag für (möglichst) quatifiziertes Ziel"
+              scope: proposal
     ######### Global Metadata #########
       - name: "goal"
         field:
@@ -90,7 +116,7 @@ prose:
           scope: additional_information
 
 
-      ######### National Metadata ######### 
+      ######### National Metadata #########
 
       - name: "dns_indicator_definition"
         field:
