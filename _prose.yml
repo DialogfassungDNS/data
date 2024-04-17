@@ -48,7 +48,7 @@ prose:
       - name: "proposal_target"
         field:
               element: text
-              label: "Vorschlag für (möglichst) quatifiziertes Ziel"
+              label: "Vorschlag für (möglichst) quantifiziertes Ziel"
               scope: proposal
     ######### Global Metadata #########
       - name: "goal"
