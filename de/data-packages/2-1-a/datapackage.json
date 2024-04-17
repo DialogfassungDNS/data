@@ -31,7 +31,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gleitender Fünfjahresdurchschnitt mit Bezug auf das mittlere Jahr",
+                "Gleitender Fünfjahresdurchschnitt mit Bezug auf das Endjahr",
                 "Berechnete jährliche Werte",
                 ""
               ]
