@@ -24,7 +24,7 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
-    ######### Propsals ########## proposal_description_new
+    ######### Propsals ##########
       # - name: "proposal_ressort"
       #   field:
       #         element: text
@@ -39,6 +39,11 @@ prose:
         field:
               element: text
               label: "Fachliche Erläuterung des Indikators"
+              scope: proposal
+      - name: "proposal_description_target"
+        field:
+              element: text
+              label: "Fachliche Erläuterung des Vorschlags"
               scope: proposal
       # - name: "proposal_definition_revision"
       #   field:
