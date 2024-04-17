@@ -24,12 +24,12 @@ prose:
             element: hidden
             label: "Layout"
             scope: page
-    ######### Propsals ########## proposal_description_new
-      - name: "proposal_ressort"
-        field:
-              element: text
-              label: "Betroffene Ressorts"
-              scope: proposal
+    ######### Propsals ##########
+      # - name: "proposal_ressort"
+      #   field:
+      #         element: text
+      #         label: "Betroffene Ressorts"
+      #         scope: proposal
       - name: "proposal_description_revision"
         field:
               element: text
@@ -40,15 +40,20 @@ prose:
               element: text
               label: "Fachliche Erläuterung des Indikators"
               scope: proposal
-      - name: "proposal_definition_revision"
+      - name: "proposal_description_target"
         field:
               element: text
-              label: "Definition für Überarbeitungs&shy;vorschlag"
+              label: "Fachliche Erläuterung des Vorschlags"
               scope: proposal
+      # - name: "proposal_definition_revision"
+      #   field:
+      #         element: text
+      #         label: "Definition für Überarbeitungs&shy;vorschlag"
+      #         scope: proposal
       - name: "proposal_target"
         field:
               element: text
-              label: "Vorschlag für (möglichst) quatifiziertes Ziel"
+              label: "Vorschlag für (möglichst) quantifiziertes Ziel"
               scope: proposal
     ######### Global Metadata #########
       - name: "goal"
@@ -123,11 +128,6 @@ prose:
             element: text
             label: "Indicator definition"
             scope: national
-      - name: "dialogue_ressort"
-        field:
-            element: text
-            label: "Zuständiges Ressort"
-            scope: national
       - name: "dialogue_text"
         field:
             element: text
@@ -142,7 +142,7 @@ prose:
       - name: "dns_indicator_intention"
         field:
             element: text
-            label: "Überarbeitung"
+            label: "Ziel und Intention"
             scope: national
 
       - name: "national_data_update_url"
