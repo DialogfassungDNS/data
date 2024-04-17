@@ -3,8 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "4-1-b/data.csv",
-      "name": "4-1-b",
+      "path": "3-1-ab/data.csv",
+      "name": "3-1-ab",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -15,243 +15,36 @@
           {
             "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tertiärer oder postsekundarer nicht-tertiärer Abschluss",
-                "Fachkräftepotential mit beruflichem Abschluss",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Art der Klassifizierung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Zweitausbildung, Ausbildung nach Abitur",
-                "Höherqualifizierende Berufsbildung",
-                "Hochschulabschlüsse",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Akademisch Qualifizierte und beruflich Höherqualifizierte"
-    },
-    {
-      "path": "15-1/data.csv",
-      "name": "15-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2030 = 100",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sub index",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "forest sub-index",
-                "settlements sub-index",
-                "farmland sub-index",
-                "inland waters sub-index",
-                "coasts and seas sub-index",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Artenvielfalt und Landschaftsqualität"
-    },
-    {
-      "path": "2-1-b/data.csv",
-      "name": "2-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data from the federal statistical office",
-                "data from the federal ministry of food and agriculture",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Ökologischer Landbau"
-    },
-    {
-      "path": "12-4/data.csv",
-      "name": "12-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Quote der Verbraucherverschuldung"
-    },
-    {
-      "path": "5-1-bc/data.csv",
-      "name": "5-1-bc",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
           },
           {
             "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "on supervisory boards of listed and fully co-determined companies",
-                "in management positions in the federal civil service",
+                "Durch Prävention vermeidbare Sterblichkeit",
+                "Durch Behandlung vermeidbare Sterblichkeit",
                 ""
               ]
             }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Frauen in Führungspositionen in der Wirtschaft sowie im öffentlichen Dienst des Bundes"
-    },
-    {
-      "path": "17-1/data.csv",
-      "name": "17-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "percentage",
+                "Anzahl",
+                "per 100,000 inhabitants",
                 ""
               ]
             }
           },
           {
-            "name": "calculation method",
+            "name": "sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "calculated as net expenditure",
-                "calculated in grant equivalents",
+                "Männer",
+                "Frauen",
                 ""
               ]
             }
@@ -262,7 +55,7 @@
           }
         ]
       },
-      "title": "Anteil öffentlicher Entwicklungsausgaben am Bruttonationaleinkommen"
+      "title": "Durch Prävention und Behandlung vermeidbare Sterblichkeit"
     },
     {
       "path": "6-2-ab/data.csv",
@@ -309,40 +102,8 @@
       "title": "Entwicklungszusammenarbeit für Trinkwasser- und Sanitärversorgung"
     },
     {
-      "path": "2-2/data.csv",
-      "name": "2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Unterstützung guter Regierungsführung bei der Erreichung einer angemessenen Ernährung weltweit"
-    },
-    {
-      "path": "1-1-ab/data.csv",
-      "name": "1-1-ab",
+      "path": "8-2-ab/data.csv",
+      "name": "8-2-ab",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -369,30 +130,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "material and social deprivation",
-                "severe material and social deprivation",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "european union",
-                "germany",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
+                "government deficit",
+                "structural deficit",
+                "gross domestic product (price-adjusted)",
                 ""
               ]
             }
@@ -403,7 +143,138 @@
           }
         ]
       },
-      "title": "Materielle und soziale Deprivation sowie erhebliche materielle und soziale Deprivation"
+      "title": "Staatsdefizit und strukturelles Defizit"
+    },
+    {
+      "path": "11-2-b/data.csv",
+      "name": "11-2-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2005 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "energy consumption in passenger transport",
+                "passenger transport performance",
+                "energy consumption per passenger-kilometre",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Endenergieverbrauch im Personenverkehr"
+    },
+    {
+      "path": "8-1/data.csv",
+      "name": "8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2010 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "raw material input productivity",
+                "raw material input for consumption, investment and exports",
+                "value of consumption, investment and exports (price-adjusted)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Gesamtrohstoffproduktivität"
+    },
+    {
+      "path": "17-1/data.csv",
+      "name": "17-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "calculation method",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "calculated as net expenditure",
+                "calculated in grant equivalents",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Anteil öffentlicher Entwicklungsausgaben am Bruttonationaleinkommen"
     },
     {
       "path": "3-2-b/data.csv",
@@ -436,158 +307,6 @@
         ]
       },
       "title": "Anteil der Bevölkerung mit erhöhter <abbr title=\"Feinstaub (Durchmesser kleiner 10&nbsp;Mikrometer)\" tabindex=\"0\">PM<sub>10</sub></abbr>-Feinstaubexposition"
-    },
-    {
-      "path": "16-2-ab/data.csv",
-      "name": "16-2-ab",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "number",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "corruption perception index in germany",
-                "number of partner countries for german development cooperation with improved cpi scores compared with 2012",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Corruption Perception Index in Deutschland sowie in den Partnerländern der deutschen Entwicklungszusammenarbeit"
-    },
-    {
-      "path": "16-1-x/data.csv",
-      "name": "16-1-x",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "per 100,000 inhabitants",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "criminal offences",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "dangerous and serious bodily injury",
-                "fraud",
-                "domestic burglary",
-                "other offences",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Straftaten"
-    },
-    {
-      "path": "15-2/data.csv",
-      "name": "15-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Eutrophierung der Ökosysteme"
-    },
-    {
-      "path": "12-1-a/data.csv",
-      "name": "12-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Marktanteil von Produkten mit staatlichen Umweltzeichen"
     },
     {
       "path": "8-5-ab/data.csv",
@@ -644,95 +363,8 @@
       "title": "Erwerbstätigenquote"
     },
     {
-      "path": "7-1-ab/data.csv",
-      "name": "7-1-ab",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2008 = 100",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "final energy productivity",
-                "primary energy consumption",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Endenergieproduktivität und Primärenergieverbrauch"
-    },
-    {
-      "path": "11-1-c/data.csv",
-      "name": "11-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2000 = 100",
-                "inhabitants per m² settlement and transport area",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "non-rural areas",
-                "rural areas",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Siedlungsdichte"
-    },
-    {
-      "path": "12-2/data.csv",
-      "name": "12-2",
+      "path": "16-1/data.csv",
+      "name": "16-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -750,7 +382,38 @@
             "constraints": {
               "enum": [
                 "number",
-                "1 000",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Anzahl der durch Fachpersonal der Bundeswehr ausgebildeten Personen zur Stärkung der Kontrolle von Kleinwaffen und leichten Waffen sowie dazugehöriger Munition weltweit"
+    },
+    {
+      "path": "2-1-a/data.csv",
+      "name": "2-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "kilogram per hectare",
                 ""
               ]
             }
@@ -760,9 +423,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "locations of organisation registered with emas",
-                "employees in emas organisations",
-                "emas organisations",
+                "Gleitender Fünfjahresdurchschnitt mit Bezug auf das mittlere Jahr",
+                "calculated annual values",
                 ""
               ]
             }
@@ -773,54 +435,11 @@
           }
         ]
       },
-      "title": "Umweltmanagementsystem (EMAS)"
+      "title": "Stickstoffüberschuss der Landwirtschaft"
     },
     {
-      "path": "11-2-c/data.csv",
-      "name": "11-2-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "minutes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "for the medium-sized and major cities of the year in question",
-                "for the medium-sized and major cities of 2012",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Erreichbarkeit von Mittel- und Oberzentren mit öffentlichen Verkehrsmitteln"
-    },
-    {
-      "path": "6-1-b/data.csv",
-      "name": "6-1-b",
+      "path": "5-1-bc/data.csv",
+      "name": "5-1-bc",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -843,77 +462,12 @@
             }
           },
           {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Nitrat im Grundwasser"
-    },
-    {
-      "path": "8-4/data.csv",
-      "name": "8-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "1.000 eur",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Bruttoinlandsprodukt je Einwohnerin und Einwohner"
-    },
-    {
-      "path": "12-1-b/data.csv",
-      "name": "12-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2010 = 100",
-                ""
-              ]
-            }
-          },
-          {
             "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "direct and indirect use of raw materials",
-                "direct and indirect energy consumption",
-                "direct and indirect co2 emissions",
+                "on supervisory boards of listed and fully co-determined companies",
+                "in management positions in the federal civil service",
                 ""
               ]
             }
@@ -924,11 +478,11 @@
           }
         ]
       },
-      "title": "Globale Umweltinanspruchnahme durch den Konsum privater Haushalte"
+      "title": "Frauen in Führungspositionen in der Wirtschaft sowie im öffentlichen Dienst des Bundes"
     },
     {
-      "path": "15-4/data.csv",
-      "name": "15-4",
+      "path": "14-1-b/data.csv",
+      "name": "14-1-b",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -951,16 +505,38 @@
             }
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "commercial exploited fish stocks assessed for msy that is fished sustainably",
+                "share of msy examined stocks in all managed fish stocks",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sea",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "north sea",
+                "baltic sea",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "Versiegelung des Bodens"
+      "title": "Anteil der nachhaltig befischten Fischbestände in Nord- und Ostsee"
     },
     {
-      "path": "9-1-b/data.csv",
-      "name": "9-1-b",
+      "path": "15-1/data.csv",
+      "name": "15-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -970,26 +546,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "percentage",
+                "2030 = 100",
                 ""
               ]
             }
           },
           {
-            "name": "time series",
+            "name": "sub index",
             "type": "string",
             "constraints": {
               "enum": [
-                "all wired technologies",
-                "fibre-to-the-building/home (fttb/h)",
-                "hybrid fiber coax (hfc)",
+                "forest sub-index",
+                "settlements sub-index",
+                "farmland sub-index",
+                "inland waters sub-index",
+                "coasts and seas sub-index",
                 ""
               ]
             }
@@ -1000,7 +578,50 @@
           }
         ]
       },
-      "title": "Breitbandausbau"
+      "title": "Artenvielfalt und Landschaftsqualität"
+    },
+    {
+      "path": "3-3/data.csv",
+      "name": "3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "pandemic prevention and response",
+                "separate amount devoted to curbing the covid-19 pandemic",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Beitrag Deutschlands zur globalen Pandemieprävention und -reaktion"
     },
     {
       "path": "10-2/data.csv",
@@ -1060,8 +681,139 @@
       "title": "Gini-Koeffizient des Einkommens nach Sozialtransfers"
     },
     {
-      "path": "4-1-d/data.csv",
-      "name": "4-1-d",
+      "path": "11-1-a/data.csv",
+      "name": "11-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "hectre per day",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "moving four-year average",
+                "calculated annual values",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "type of area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "transport area",
+                "settlement area (built on)",
+                "recreation area, cemetery",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Anstieg der Siedlungs- und Verkehrsfläche"
+    },
+    {
+      "path": "12-1-b/data.csv",
+      "name": "12-1-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2010 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "direct and indirect use of raw materials",
+                "direct and indirect energy consumption",
+                "direct and indirect co2 emissions",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Globale Umweltinanspruchnahme durch den Konsum privater Haushalte"
+    },
+    {
+      "path": "8-4/data.csv",
+      "name": "8-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1.000 eur",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Bruttoinlandsprodukt je Einwohnerin und Einwohner"
+    },
+    {
+      "path": "11-3/data.csv",
+      "name": "11-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1084,12 +836,23 @@
             }
           },
           {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
         ]
       },
-      "title": "Schulen mit BNE-Label (Bildung für nachhaltige Entwicklung)"
+      "title": "Überlastung durch Wohnkosten"
     },
     {
       "path": "9-1-a/data.csv",
@@ -1124,8 +887,8 @@
       "title": "Private und öffentliche Ausgaben für Forschung und Entwicklung"
     },
     {
-      "path": "3-3/data.csv",
-      "name": "3-3",
+      "path": "12-2/data.csv",
+      "name": "12-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1142,256 +905,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "million eur",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "pandemic prevention and response",
-                "separate amount devoted to curbing the covid-19 pandemic",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Beitrag Deutschlands zur globalen Pandemieprävention und -reaktion"
-    },
-    {
-      "path": "7-2-a/data.csv",
-      "name": "7-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Anteil erneuerbarer Energien am Brutto-Endenergieverbrauch"
-    },
-    {
-      "path": "8-1/data.csv",
-      "name": "8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2010 = 100",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "raw material input productivity",
-                "raw material input for consumption, investment and exports",
-                "value of consumption, investment and exports (price-adjusted)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Gesamtrohstoffproduktivität"
-    },
-    {
-      "path": "3-1-ab/data.csv",
-      "name": "3-1-ab",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Durch Prävention vermeidbare Sterblichkeit",
-                "Durch Behandlung vermeidbare Sterblichkeit",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Anzahl",
-                "per 100,000 inhabitants",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Männer",
-                "Frauen",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Durch Prävention und Behandlung vermeidbare Sterblichkeit"
-    },
-    {
-      "path": "8-3/data.csv",
-      "name": "8-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Verhältnis der Bruttoanlageinvestitionen zum Bruttoinlandsprodukt"
-    },
-    {
-      "path": "11-1-b/data.csv",
-      "name": "11-1-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "m² per year",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "non-rural areas",
-                "rural areas",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Freiraumverlust"
-    },
-    {
-      "path": "15-3-ab/data.csv",
-      "name": "15-3-ab",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "million eur",
+                "number",
+                "1 000",
                 ""
               ]
             }
@@ -1401,8 +916,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "preservation or restoration of forests in developing countries under the redd+ rulebook",
-                "german gross bilateral development expenditure for the implementation of the un convention to combat desertification",
+                "locations of organisation registered with emas",
+                "employees in emas organisations",
+                "emas organisations",
                 ""
               ]
             }
@@ -1413,157 +929,7 @@
           }
         ]
       },
-      "title": "Erhalt bzw. Wiederaufbau von Wäldern unter REDD+ sowie internationaler Bodenschutz"
-    },
-    {
-      "path": "4-1-c/data.csv",
-      "name": "4-1-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Weiterbildungsbeteiligung"
-    },
-    {
-      "path": "5-1-a/data.csv",
-      "name": "5-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Verdienstabstand zwischen Frauen und Männern"
-    },
-    {
-      "path": "11-4-x/data.csv",
-      "name": "11-4-x",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "millions",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "objects with digitised media",
-                "objects without digitised media",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek"
-    },
-    {
-      "path": "5-1-d/data.csv",
-      "name": "5-1-d",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Anteil der Kinder, deren Väter Elterngeld bezogen haben",
-                "Anteil der Elterngeldmonate, die von Vätern genommen wurden",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Väterbeteiligung beim Elterngeld und Väteranteil an den genommenen Elterngeldmonaten"
+      "title": "Umweltmanagementsystem (EMAS)"
     },
     {
       "path": "17-3/data.csv",
@@ -1609,8 +975,8 @@
       "title": "Einfuhren aus am wenigsten entwickelten Ländern"
     },
     {
-      "path": "8-6/data.csv",
-      "name": "8-6",
+      "path": "14-1-a/data.csv",
+      "name": "14-1-a",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1627,149 +993,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "number",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Mitglieder des Textilbündnisses"
-    },
-    {
-      "path": "3-2-a/data.csv",
-      "name": "3-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2005 = 100",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "air pollutant",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "so₂",
-                "noₓ",
-                "nh₃",
-                "nmvoc",
-                "pm2.5",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Emissionen von Luftschadstoffen"
-    },
-    {
-      "path": "7-2-b/data.csv",
-      "name": "7-2-b",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Anteil des Stroms aus erneuerbaren Energiequellen am Bruttostromverbrauch"
-    },
-    {
-      "path": "8-2-c/data.csv",
-      "name": "8-2-c",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Schuldenstand"
-    },
-    {
-      "path": "11-2-a/data.csv",
-      "name": "11-2-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "2005 = 100",
+                "miligrams per litre",
                 ""
               ]
             }
@@ -1779,9 +1003,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "final energy consumption for the transport of goods",
-                "goods transport performance",
-                "energy consumption per tonne-kilometre",
+                "nitrogen input via the inflows into the baltic sea",
+                "nitrogen input via the inflows into the north sea",
                 ""
               ]
             }
@@ -1792,136 +1015,7 @@
           }
         ]
       },
-      "title": "Endenergieverbrauch im Güterverkehr"
-    },
-    {
-      "path": "2-1-a/data.csv",
-      "name": "2-1-a",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "kilogram per hectare",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "moving five-year average shown for each middle year",
-                "calculated annual values",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Stickstoffüberschuss der Landwirtschaft"
-    },
-    {
-      "path": "3-1-cd/data.csv",
-      "name": "3-1-cd",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "percentage",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "adolescents",
-                "adults",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Raucherquote von Jugendlichen und Erwachsenen"
-    },
-    {
-      "path": "16-1/data.csv",
-      "name": "16-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "number",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Anzahl der durch Fachpersonal der Bundeswehr ausgebildeten Personen zur Stärkung der Kontrolle von Kleinwaffen und leichten Waffen sowie dazugehöriger Munition weltweit"
+      "title": "Stickstoffeintrag über die Zuflüsse in die Nord- und Ostsee"
     },
     {
       "path": "10-1/data.csv",
@@ -1980,6 +1074,201 @@
       "title": "Ausländische Schulabsolventinnen und Schulabsolventen"
     },
     {
+      "path": "5-1-a/data.csv",
+      "name": "5-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Verdienstabstand zwischen Frauen und Männern"
+    },
+    {
+      "path": "17-2/data.csv",
+      "name": "17-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "students from ldcs",
+                "students from other developing and emerging countries",
+                "researchers from ldcs",
+                "researchers from other developing and emerging countries",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Studierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
+    },
+    {
+      "path": "6-1-b/data.csv",
+      "name": "6-1-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Nitrat im Grundwasser"
+    },
+    {
+      "path": "11-4-x/data.csv",
+      "name": "11-4-x",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "millions",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "objects with digitised media",
+                "objects without digitised media",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Zahl der Objekte in der Deutschen Digitalen Bibliothek"
+    },
+    {
+      "path": "11-1-b/data.csv",
+      "name": "11-1-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "m² per year",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "non-rural areas",
+                "rural areas",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Freiraumverlust"
+    },
+    {
       "path": "8-5-c/data.csv",
       "name": "8-5-c",
       "profile": "tabular-data-resource",
@@ -2012,8 +1301,139 @@
       "title": "Tarifvertragliche Abdeckung von Beschäftigten"
     },
     {
-      "path": "11-3/data.csv",
-      "name": "11-3",
+      "path": "15-4/data.csv",
+      "name": "15-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Versiegelung des Bodens"
+    },
+    {
+      "path": "11-2-a/data.csv",
+      "name": "11-2-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2005 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "final energy consumption for the transport of goods",
+                "goods transport performance",
+                "energy consumption per tonne-kilometre",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Endenergieverbrauch im Güterverkehr"
+    },
+    {
+      "path": "4-1-b/data.csv",
+      "name": "4-1-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tertiärer oder postsekundarer nicht-tertiärer Abschluss",
+                "Fachkräftepotential mit beruflichem Abschluss",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Art der Klassifizierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Zweitausbildung, Ausbildung nach Abitur",
+                "Höherqualifizierende Berufsbildung",
+                "Hochschulabschlüsse",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Akademisch Qualifizierte und beruflich Höherqualifizierte"
+    },
+    {
+      "path": "4-1-a/data.csv",
+      "name": "4-1-a",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2052,11 +1472,75 @@
           }
         ]
       },
-      "title": "Überlastung durch Wohnkosten"
+      "title": "Frühe Schulabgängerinnen und Schulabgänger"
     },
     {
-      "path": "3-1-e/data.csv",
-      "name": "3-1-e",
+      "path": "13-1-a/data.csv",
+      "name": "13-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1990 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Treibhausgasemissionen"
+    },
+    {
+      "path": "15-2/data.csv",
+      "name": "15-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Eutrophierung der Ökosysteme"
+    },
+    {
+      "path": "9-1-b/data.csv",
+      "name": "9-1-b",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2083,30 +1567,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "overweight without obese",
-                "obese",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "female",
-                "male",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "age group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "3 to under 11 years",
-                "11 to under 18 years",
+                "all wired technologies",
+                "fibre-to-the-building/home (fttb/h)",
+                "hybrid fiber coax (hfc)",
                 ""
               ]
             }
@@ -2117,11 +1580,11 @@
           }
         ]
       },
-      "title": "Adipositasquote von Kindern und Jugendlichen"
+      "title": "Breitbandausbau"
     },
     {
-      "path": "3-1-ab-x/data.csv",
-      "name": "3-1-ab-x",
+      "path": "11-2-c/data.csv",
+      "name": "11-2-c",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2138,7 +1601,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "per 100,000 inhabitants",
+                "minutes",
                 ""
               ]
             }
@@ -2148,8 +1611,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "premature death (women)",
-                "premature death (men)",
+                "for the medium-sized and major cities of the year in question",
+                "for the medium-sized and major cities of 2012",
                 ""
               ]
             }
@@ -2160,11 +1623,11 @@
           }
         ]
       },
-      "title": "Vorzeitige Sterblichkeit"
+      "title": "Erreichbarkeit von Mittel- und Oberzentren mit öffentlichen Verkehrsmitteln"
     },
     {
-      "path": "6-1-a/data.csv",
-      "name": "6-1-a",
+      "path": "3-2-a/data.csv",
+      "name": "3-2-a",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2181,39 +1644,21 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "percentage",
+                "2005 = 100",
                 ""
               ]
             }
           },
           {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Phosphor in Fließgewässern"
-    },
-    {
-      "path": "5-1-f/data.csv",
-      "name": "5-1-f",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Units",
+            "name": "air pollutant",
             "type": "string",
             "constraints": {
               "enum": [
-                "1 000",
+                "so₂",
+                "noₓ",
+                "nh₃",
+                "nmvoc",
+                "pm2.5",
                 ""
               ]
             }
@@ -2224,7 +1669,7 @@
           }
         ]
       },
-      "title": "Berufliche Qualifizierung von Frauen und Mädchen durch deutsche entwicklungspolitische Zusammenarbeit"
+      "title": "Emissionen von Luftschadstoffen"
     },
     {
       "path": "3-1-f/data.csv",
@@ -2292,8 +1737,8 @@
       "title": "Adipositasquote von Erwachsenen"
     },
     {
-      "path": "13-1-b/data.csv",
-      "name": "13-1-b",
+      "path": "8-3/data.csv",
+      "name": "8-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2310,7 +1755,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "billion eur",
+                "percentage",
                 ""
               ]
             }
@@ -2321,7 +1766,93 @@
           }
         ]
       },
-      "title": "Internationale Klimafinanzierung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel"
+      "title": "Verhältnis der Bruttoanlageinvestitionen zum Bruttoinlandsprodukt"
+    },
+    {
+      "path": "4-2-ab/data.csv",
+      "name": "4-2-ab",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "all-day care provision for 0 to 2-year-old children",
+                "all-day care provision for 3 to 5-year-old children",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Ganztagsbetreuung für Kinder"
+    },
+    {
+      "path": "16-2-ab/data.csv",
+      "name": "16-2-ab",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "corruption perception index in germany",
+                "number of partner countries for german development cooperation with improved cpi scores compared with 2012",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Corruption Perception Index in Deutschland sowie in den Partnerländern der deutschen Entwicklungszusammenarbeit"
     },
     {
       "path": "5-1-e/data.csv",
@@ -2367,8 +1898,51 @@
       "title": "Durchschnittliche wöchentliche Erwerbsarbeitszeit bezogen auf alle Mütter und Väter"
     },
     {
-      "path": "4-1-a/data.csv",
-      "name": "4-1-a",
+      "path": "15-3-ab/data.csv",
+      "name": "15-3-ab",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "million eur",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "preservation or restoration of forests in developing countries under the redd+ rulebook",
+                "german gross bilateral development expenditure for the implementation of the un convention to combat desertification",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Erhalt bzw. Wiederaufbau von Wäldern unter REDD+ sowie internationaler Bodenschutz"
+    },
+    {
+      "path": "3-1-cd/data.csv",
+      "name": "3-1-cd",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2386,6 +1960,17 @@
             "constraints": {
               "enum": [
                 "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "adolescents",
+                "adults",
                 ""
               ]
             }
@@ -2407,11 +1992,11 @@
           }
         ]
       },
-      "title": "Frühe Schulabgängerinnen und Schulabgänger"
+      "title": "Raucherquote von Jugendlichen und Erwachsenen"
     },
     {
-      "path": "14-1-a/data.csv",
-      "name": "14-1-a",
+      "path": "3-1-ab-x/data.csv",
+      "name": "3-1-ab-x",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2428,7 +2013,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "miligrams per litre",
+                "per 100,000 inhabitants",
                 ""
               ]
             }
@@ -2438,8 +2023,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "nitrogen input via the inflows into the baltic sea",
-                "nitrogen input via the inflows into the north sea",
+                "premature death (women)",
+                "premature death (men)",
                 ""
               ]
             }
@@ -2450,11 +2035,11 @@
           }
         ]
       },
-      "title": "Stickstoffeintrag über die Zuflüsse in die Nord- und Ostsee"
+      "title": "Vorzeitige Sterblichkeit"
     },
     {
-      "path": "14-1-b/data.csv",
-      "name": "14-1-b",
+      "path": "1-1-ab/data.csv",
+      "name": "1-1-ab",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2477,23 +2062,34 @@
             }
           },
           {
-            "name": "Series",
+            "name": "time series",
             "type": "string",
             "constraints": {
               "enum": [
-                "commercial exploited fish stocks assessed for msy that is fished sustainably",
-                "share of msy examined stocks in all managed fish stocks",
+                "material and social deprivation",
+                "severe material and social deprivation",
                 ""
               ]
             }
           },
           {
-            "name": "sea",
+            "name": "area",
             "type": "string",
             "constraints": {
               "enum": [
-                "north sea",
-                "baltic sea",
+                "european union",
+                "germany",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
                 ""
               ]
             }
@@ -2504,11 +2100,76 @@
           }
         ]
       },
-      "title": "Anteil der nachhaltig befischten Fischbestände in Nord- und Ostsee"
+      "title": "Materielle und soziale Deprivation sowie erhebliche materielle und soziale Deprivation"
     },
     {
-      "path": "13-1-a/data.csv",
-      "name": "13-1-a",
+      "path": "3-1-e/data.csv",
+      "name": "3-1-e",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "time series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "overweight without obese",
+                "obese",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "female",
+                "male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "3 to under 11 years",
+                "11 to under 18 years",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Adipositasquote von Kindern und Jugendlichen"
+    },
+    {
+      "path": "11-1-c/data.csv",
+      "name": "11-1-c",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2525,7 +2186,19 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "1990 = 100",
+                "2000 = 100",
+                "inhabitants per m² settlement and transport area",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "non-rural areas",
+                "rural areas",
                 ""
               ]
             }
@@ -2536,11 +2209,11 @@
           }
         ]
       },
-      "title": "Treibhausgasemissionen"
+      "title": "Siedlungsdichte"
     },
     {
-      "path": "11-1-a/data.csv",
-      "name": "11-1-a",
+      "path": "13-1-b/data.csv",
+      "name": "13-1-b",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2557,30 +2230,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "hectre per day",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "moving four-year average",
-                "calculated annual values",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "type of area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "transport area",
-                "settlement area (built on)",
-                "recreation area, cemetery",
+                "billion eur",
                 ""
               ]
             }
@@ -2591,7 +2241,39 @@
           }
         ]
       },
-      "title": "Anstieg der Siedlungs- und Verkehrsfläche"
+      "title": "Internationale Klimafinanzierung zur Reduktion von Treibhausgasen und zur Anpassung an den Klimawandel"
+    },
+    {
+      "path": "6-1-a/data.csv",
+      "name": "6-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Phosphor in Fließgewässern"
     },
     {
       "path": "12-3-abc/data.csv",
@@ -2652,8 +2334,8 @@
       "title": "Nachhaltige Beschaffung"
     },
     {
-      "path": "8-2-ab/data.csv",
-      "name": "8-2-ab",
+      "path": "4-1-c/data.csv",
+      "name": "4-1-c",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2676,13 +2358,46 @@
             }
           },
           {
-            "name": "time series",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Weiterbildungsbeteiligung"
+    },
+    {
+      "path": "16-1-x/data.csv",
+      "name": "16-1-x",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "government deficit",
-                "structural deficit",
-                "gross domestic product (price-adjusted)",
+                "per 100,000 inhabitants",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "criminal offences",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "dangerous and serious bodily injury",
+                "fraud",
+                "domestic burglary",
+                "other offences",
                 ""
               ]
             }
@@ -2693,11 +2408,182 @@
           }
         ]
       },
-      "title": "Staatsdefizit und strukturelles Defizit"
+      "title": "Straftaten"
     },
     {
-      "path": "17-2/data.csv",
-      "name": "17-2",
+      "path": "12-4/data.csv",
+      "name": "12-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Quote der Verbraucherverschuldung"
+    },
+    {
+      "path": "5-1-f/data.csv",
+      "name": "5-1-f",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1 000",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Berufliche Qualifizierung von Frauen und Mädchen durch deutsche entwicklungspolitische Zusammenarbeit"
+    },
+    {
+      "path": "2-2/data.csv",
+      "name": "2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Unterstützung guter Regierungsführung bei der Erreichung einer angemessenen Ernährung weltweit"
+    },
+    {
+      "path": "7-1-ab/data.csv",
+      "name": "7-1-ab",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2008 = 100",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "final energy productivity",
+                "primary energy consumption",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Endenergieproduktivität und Primärenergieverbrauch"
+    },
+    {
+      "path": "7-2-b/data.csv",
+      "name": "7-2-b",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Anteil des Stroms aus erneuerbaren Energiequellen am Bruttostromverbrauch"
+    },
+    {
+      "path": "8-6/data.csv",
+      "name": "8-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2720,14 +2606,44 @@
             }
           },
           {
-            "name": "time series",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Mitglieder des Textilbündnisses"
+    },
+    {
+      "path": "5-1-d/data.csv",
+      "name": "5-1-d",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "students from ldcs",
-                "students from other developing and emerging countries",
-                "researchers from ldcs",
-                "researchers from other developing and emerging countries",
+                "Anteil der Kinder, deren Väter Elterngeld bezogen haben",
+                "Anteil der Elterngeldmonate, die von Vätern genommen wurden",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
                 ""
               ]
             }
@@ -2738,11 +2654,107 @@
           }
         ]
       },
-      "title": "Studierende und Forschende aus Entwicklungsländern sowie aus am wenigsten entwickelten Ländern pro Jahr"
+      "title": "Väterbeteiligung beim Elterngeld und Väteranteil an den genommenen Elterngeldmonaten"
     },
     {
-      "path": "4-2-ab/data.csv",
-      "name": "4-2-ab",
+      "path": "8-2-c/data.csv",
+      "name": "8-2-c",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Schuldenstand"
+    },
+    {
+      "path": "4-1-d/data.csv",
+      "name": "4-1-d",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Schulen mit BNE-Label (Bildung für nachhaltige Entwicklung)"
+    },
+    {
+      "path": "12-1-a/data.csv",
+      "name": "12-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "percentage",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Marktanteil von Produkten mit staatlichen Umweltzeichen"
+    },
+    {
+      "path": "2-1-b/data.csv",
+      "name": "2-1-b",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2769,8 +2781,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "all-day care provision for 0 to 2-year-old children",
-                "all-day care provision for 3 to 5-year-old children",
+                "data from the federal statistical office",
+                "data from the federal ministry of food and agriculture",
                 ""
               ]
             }
@@ -2781,11 +2793,11 @@
           }
         ]
       },
-      "title": "Ganztagsbetreuung für Kinder"
+      "title": "Ökologischer Landbau"
     },
     {
-      "path": "11-2-b/data.csv",
-      "name": "11-2-b",
+      "path": "7-2-a/data.csv",
+      "name": "7-2-a",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2802,19 +2814,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "2005 = 100",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "time series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "energy consumption in passenger transport",
-                "passenger transport performance",
-                "energy consumption per passenger-kilometre",
+                "percentage",
                 ""
               ]
             }
@@ -2825,7 +2825,7 @@
           }
         ]
       },
-      "title": "Endenergieverbrauch im Personenverkehr"
+      "title": "Anteil erneuerbarer Energien am Brutto-Endenergieverbrauch"
     }
   ]
 }
