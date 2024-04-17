@@ -25,11 +25,11 @@ prose:
             label: "Layout"
             scope: page
     ######### Propsals ########## proposal_description_new
-      - name: "proposal_ressort"
-        field:
-              element: text
-              label: "Betroffene Ressorts"
-              scope: proposal
+      # - name: "proposal_ressort"
+      #   field:
+      #         element: text
+      #         label: "Betroffene Ressorts"
+      #         scope: proposal
       - name: "proposal_description_revision"
         field:
               element: text
@@ -122,11 +122,6 @@ prose:
         field:
             element: text
             label: "Indicator definition"
-            scope: national
-      - name: "dialogue_ressort"
-        field:
-            element: text
-            label: "Zuständiges Ressort"
             scope: national
       - name: "dialogue_text"
         field:
