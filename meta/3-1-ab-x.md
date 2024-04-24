@@ -35,8 +35,8 @@ next: 3-1-cd
 source_active_1: true
 source_organisation_1: <a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a>
 source_organisation_1_short: <a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank">Statistisches Bundesamt</a>
-source_organisation_logo_1: <a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank"><img src="https://dns-indikatoren.de/public/OrgImgDe/destatis.png" alt="Statistisches Bundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Statistisches Bundesamt zu gelangen." style="height:60px; width:148px; border:transparent"/></a>
-source_url_1: 'https://www.gbe-bund.de/gbe/pkg_isgbe5.prc_menu_olap?p_uid=gast&p_aid=52889592&p_sprache=D&p_help=2&p_indnr=562&p_indsp=3194&p_ityp=H&p_fid='
+source_organisation_logo_1: <a href="https://www.destatis.de/DE/Home/_inhalt.html" target="_blank"><img src="https://dnsTestEnvironment.github.io/dns-indicators/public/OrgImgDe/destatis.png" alt="Statistisches Bundesamt" title=" Klicken Sie hier um zur Homepage der Organisation Statistisches Bundesamt zu gelangen." style="height:60px; width:148px; border:transparent"/></a>
+source_url_1: 'https://www.gbe-bund.de/gbe/!isgbe.indikatoren_set_page?p_uid=gast&p_aid=45213126&p_sprache=D&p_help=2&p_indnr=562&p_ansnr=17979237&p_version=2&p_thema_id=263&p_thema_id2=3600&p_thema_id3=3800&p_thema_id4=3900&D.000=3744&D.001=1000001&D.003=1000004&D.022=9998&D.024=43190&D.011=2961'
 source_url_text_1: Vorzeitige Sterblichkeit
 
 
